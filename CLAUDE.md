@@ -77,6 +77,20 @@ Die Namen unterscheiden sich um zwei Buchstaben. Wer sie verwechselt, bekommt ke
 
 Mailchimp-Gruppe dieses Portals: `group[16138][4096]` („Studien Newsletter Pflege"). **Gruppen-Nummern sind Identitäten, keine Beschriftungen** — wer eine umbenennt, verschiebt Menschen, nicht Wörter.
 
+**Die Newsletter-Seite bietet auch die Schwesterportale an** (seit 18.08.2026). Die Liste heißt
+`REIHE` und steht im Skriptteil von `newsletter.html` — in jedem Portal gleich; das eigene Portal
+filtert sich anhand von `MC.gruppeStudien` selbst heraus. Gepflegt wird sie in
+`portal-vorlage/vorlage/newsletter.html`: Die Datei ist seit demselben Tag **neutral** und läuft
+beim Abgleich mit. Portaleigen sind nur noch vier Platzhalter (`META_NEWSLETTER`,
+`NL_STUDIEN_WAS`, `MC_GRUPPE_FELD`, `MC_TAG_STUDIEN`) aus `portal.json`.
+
+`bereit: false` hält ein Portal aus dem Angebot heraus, solange es noch nicht versendet. Dieses
+Portal steht seit dem 18.08.2026 auf `true`: Die Secrets `PFLEGEHUB` und `PFLEGEHUBMC` sind
+gesetzt, der erste Studien-Lauf ist durch.
+
+`MC.tagStudien` darf **nie** `"0"` enthalten: In JavaScript ist die Zeichenkette `"0"` wahr, und
+die Anmeldung schickte Mailchimp `tags=0`. Wo es keinen Tag gibt, bleibt das Feld leer.
+
 ## Gestaltung: das Erscheinungsbild von m-vf.de
 
 | Merkmal | Wert |
