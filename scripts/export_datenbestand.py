@@ -74,7 +74,7 @@ def main() -> int:
 
     gesamt = {
         "erzeugt": dt.datetime.now().isoformat(timespec="seconds"),
-        "quelle": "https://{{DOMAIN}}/ - Repo {{REPO}}",
+        "quelle": "https://pflege.m-vf.de/ - Repo mvf-portal/pflege-portal",
         "hinweis": "Erzeugt von scripts/export_datenbestand.py aus index.html "
                    "und studien-archiv.json. Nicht von Hand pflegen.",
         "zusammenfassung": {
