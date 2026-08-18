@@ -1009,9 +1009,73 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "18. Aug. 2026, 09:28 Uhr";
+const SNAP_DATE = "18. Aug. 2026, 09:37 Uhr";
 const SNAP_STATUS = "neu";
-const STUDIES = [];
+const STUDIES = [
+  {
+    journal:"Aust Health Rev", year:"2026", pmid:"42608335",
+    author:"Nash TS et al.", pubdate:"03.09.2026",
+    added:"17.08.2026",
+    title:"Krankenhausentlassung ins Pflegeheim: Outcomes und Komplikationen bei 198 älteren Patienten",
+    sum:"Retrospektive Kohortenstudie mit 293 als langzeitig hospitalisiert markierten und 198 schließlich ins Pflegeheim entlassenen älteren Patienten (Median 83 Jahre); Verfolgung von Übergangsverzögerungen und 90-Tage-Outcomes.",
+    result:"Mediane Verweildauer 28 Tage (Aufnahme bis Bereitschaft), 24 Tage (Bereitschaft bis Heimaufnahme); 36 % erfüllten das zusammengesetzte Outcome (Notaufnahmen, ungeplante Wiederaufnahmen oder Scheitern der Platzierung innerhalb 90 Tagen); 32 % besuchten Notaufnahme, 22 % wurden wiederaufgenommen, 5 % Platzierungsversagen.",
+    transfer:"Australien, aber Sicherungs- und Übergangsproblematik ähnlich deutschem System"
+  },
+  {
+    journal:"Psychogeriatrics", year:"2026", pmid:"42581428",
+    author:"Alves B et al.", pubdate:"Sept. 2026",
+    added:"12.08.2026",
+    title:"Lebensqualität in Pflegeheimen: Einfluss von Einsamkeit, Aktivitäten und Außenräumen",
+    sum:"Querschnittstudie mit 213 Bewohnern in 22 portugiesischen Pflegeheimen zur Identifikation individueller und institutioneller Faktoren für Lebensqualität.",
+    result:"Durchschnittlicher WHOQOL-OLD-Score 63,3/100; höhere Einsamkeit reduzierte Lebensqualität um 0,79 Punkte (p&lt;0,001); Beteiligung an Heimaufgaben (+7,67 Punkte, p&lt;0,001), Besuche (+7,10 Punkte) und Außenräume (+6,52 Punkte) verbesserten Lebensqualität signifikant.",
+    transfer:"Portugal, südeuropäisches Langzeitpflege-Setting, Ergebnisse auf deutsche Heime übertragbar"
+  },
+  {
+    journal:"BMC Palliat Care", year:"2026", pmid:"42576216",
+    author:"Åvik Persson H et al.", pubdate:"11.08.2026",
+    added:"11.08.2026",
+    title:"Palliativversorgung im Pflegeheim: Managementerfahrungen nach Schulung des Personals",
+    sum:"Qualitativ-thematische Follow-up-Studie mit 22 Heimleitern in 20 schwedischen Pflegeheimen, die an einer mehrzentrisch evaluierten Schulungsintervention (KUPA-Programm: Seminare, reflektive Aktivitäten, Aufgaben) teilnahmen.",
+    result:"Interviews zeigten drei Hauptthemen: Navigation organisatorischer Barrieren, Aufrechterhaltung der Implementierung trotz Ressourcenmangel, Verbesserung des Wissens und gemeinsamer Sprache zum Thema Palliativpflege über Professionen hinweg; Langzeitkommitment, finanzielle Ressourcen und Managementkompetenz als Erfolgsfaktoren (qualitativ, keine quantifizierten Outcomes, aber Beobachtung von Implementierungshaltbarkeit).",
+    transfer:"Schweden, skandinavisches Langzeitpflege-System mit vergleichbaren Finanzierungs- und Organisationsstrukturen"
+  },
+  {
+    journal:"BMJ Open", year:"2026", pmid:"42575558",
+    author:"Maier CB et al.", pubdate:"10.08.2026",
+    added:"10.08.2026",
+    title:"Personalisierte Gewinnung und Bindung von akademisch ausgebildeten Pflegekräften: was BSN-Absolventen in deutschen Kliniken wirklich wollen",
+    sum:"Mixed-Methods-Studie in 22 deutschen Krankenhäusern mit 1856 Pflegekräften (282 Bachelor-absolventen, 1574 dreijährig ausgebildete), Interviews mit 19 Personen zur Gewinnung und Bindung von BSN-Pflegekräften.",
+    result:"82,6 % der BSN beurteilten qualifikationsgerechte Bezahlung als hochgradig wichtig (vs. 52,7 % dreijährig Ausgebildete, p&lt;0,001); 63,8 % BSN (vs. 40,1 %, p&lt;0,001) schätzten individuelle Karrierechancen als zentral, 59,9 % (vs. 32,0 %, p&lt;0,001) forderten erweiterte klinische Aufgaben und Unabhängigkeit.",
+    transfer:"Deutschland, direkt auf deutsche Krankenhäuser anwendbar"
+  },
+  {
+    journal:"BMC Health Serv Res", year:"2026", pmid:"42576220",
+    author:"Bohnert K et al.", pubdate:"08.08.2026",
+    added:"11.08.2026",
+    title:"Integrierte Versorgung für Kinder mit speziellen Versorgungsbedarfen: Lücken in Koordination und Familienorientierung",
+    sum:"Querschnittstudie in Deutschland mit 459 Eltern von Kindern mit neurologischen, entwicklungs- und verhaltensauffälligen Störungen zur Erfahrung der sektorenübergreifenden Versorgungskoordination und Familienunterstützung.",
+    result:"Moderate Teamqualität und Kommunikation (Mittelwert 4,1±1,1), niedrige Aufmerksamkeit für Familienbelastung (2,3±1,1); Zusammenhang mit ungedeckten Bedarfen: 1-4 ungedeckte Bedarfe assoziiert mit um 0,28 Punkte niedrigerer Teamqualität (p&lt;0,05), ≥5 Bedarfe um 0,83 Punkte niedriger (p&lt;0,05); größere Versorgungsnetzwerke mit besserer Familienorientierung (4-5 Provider: β=0,33; 6-10 Provider: β=0,38, jeweils p&lt;0,05).",
+    transfer:"Deutschland, deutsche Kohortenstudie mit deutschem Versorgungssystem"
+  },
+  {
+    journal:"Age Ageing", year:"2026", pmid:"42580694",
+    author:"Nwolise C et al.", pubdate:"03.08.2026",
+    added:"11.08.2026",
+    title:"Hospital at Home für Heimbewohner mit körperlichem Verfall: Erfahrungen des Pflegepersonals",
+    sum:"Qualitative Studie zu Erfahrungen von Heimleitern und Pflegepersonal mit dem Hospital-at-Home-Modell (Versorgung im gewohnten Setting statt Krankenhausaufnahme) bei älteren Bewohnern in englischen Pflegeheimen.",
+    result:"50 Befragte und 20 interviewte Pflegepersonen; Hospital at Home wurde als wertvoll wahrgenommen mit verbesserten Outcomes (Kontinuität, Würde, geringere Krankenhausrisiken) gegenüber stationärer Aufnahme, aber Barrieren wie begrenzte Kapazität und Öffnungszeiten schränken die Implementierung ein.",
+    transfer:"England, aber Versorgungslogik vergleichbar mit deutschen Heimversorgungsmodellen"
+  },
+  {
+    journal:"J Nurs Manag", year:"2026", pmid:"42568162",
+    author:"Lesnik T et al.", pubdate:"2026",
+    added:"08.08.2026",
+    title:"Verbleib von Pflegekräften in Intensivpflege und Langzeitpflege: stabilisierende und destabilisierende Faktoren im Vergleich",
+    sum:"Qualitative Studie mit 52 Teilnehmern (Pflegemanager und Pflegepersonal) aus 9 Krankenhäusern und 8 Pflegeheimen in Österreich zu Faktoren, die zum Verbleib oder Weggang von Pflegekräften beitragen.",
+    result:"Stabilisierende Faktoren: fördernde Führung, positive Teamkultur, Autonomie; destabilisierende Faktoren: unangemessene Verantwortungslast, ethische Dilemmas und in Heimen zusätzlich: eingeschränkte Ärzteverfügbarkeit, Untervalourierung, geringe Aufstiegschancen (qualitative Ergebnisse, keine Prozentangaben, aber strukturierter Vergleich ICU vs. LTC).",
+    transfer:"Österreich, vergleichbares deutsches Pflegesystem und ähnliche Arbeitsmarktdynamiken"
+  },
+];
 // === STUDIES-BLOCK-ENDE ===
 
 // === CHIPS-BLOCK-START (themenspezifisch) ===
