@@ -113,10 +113,16 @@ SYSTEM = (
 USER_TEMPLATE = """Unten stehen aktuelle PubMed-Abstracts (nach Datum sortiert).
 
 Waehle GENAU 6 Studien aus, die (a) die pflegerische Versorgung, die Langzeitpflege oder die Situation der Pflegenden untersuchen UND (b) im
-Abstract KONKRETE quantitative Ergebnisse nennen (Prozentwerte, Effektstaerken,
-Odds/Hazard Ratios, Zeit- oder Kostenwirkungen, Fallzahlen, p-Werte).
-Ueberspringe Studien ohne Abstract oder ohne konkrete Ergebnisse. Achte auf
-thematische Vielfalt.
+Abstract ein BENENNBARES ERGEBNIS berichten. Bei quantitativen Arbeiten heisst
+das: konkrete Zahlen (Prozentwerte, Effektstaerken, Odds/Hazard Ratios, Zeit-
+oder Kostenwirkungen, Fallzahlen, p-Werte) - und die gehoeren dann auch in die
+Zusammenfassung. Qualitative Studien (Interviews, Fokusgruppen) und
+Expertenpapiere sind ausdruecklich zugelassen; bei ihnen tritt an die Stelle
+der Zahl die klar benannte Kernaussage - welche Faktoren, welche Bedingungen,
+welche Empfehlung. Was NICHT genuegt, ist ein Abstract, der nur ankuendigt,
+was untersucht wurde, ohne zu sagen, was dabei herauskam.
+Ueberspringe Studien ohne Abstract oder ohne benennbares Ergebnis. Achte auf
+thematische Vielfalt und mische quantitative und qualitative Arbeiten.
 
 THEMATISCHE RANGFOLGE - in dieser Reihenfolge bevorzugen:
   1. Versorgung und Ergebnis: Massnahmen in Pflegeheim, ambulantem Dienst
@@ -140,7 +146,7 @@ reine Instrumentenentwicklung und Fragebogenvalidierung ohne Anwendung in der
 Versorgung, Querschnittsbefragungen ohne Bezugsgroesse ("X Prozent der
 Befragten fuehlen sich belastet"), Arbeiten, die Pflegekraefte nur als
 Stichprobe fuer eine ganz andere Fragestellung verwenden, medikamentoese
-Studien mit pflegerischem Anstrich, Uebersichten ohne eigene Zahlen sowie
+Studien mit pflegerischem Anstrich, Uebersichten, die nichts Eigenes berichten sowie
 Einzelfallberichte und Erfahrungsberichte einzelner Einrichtungen.
 
 HARTE REGELN ZUR ZUSAMMENSETZUNG (sie gehen der thematischen Rangfolge vor):
