@@ -1,5 +1,44 @@
 [
  {
+  "pmid": "42617155",
+  "journal": "J Med Internet Res",
+  "year": "2026",
+  "author": "Bouchmal S et al.",
+  "pubdate": "19.08.2026",
+  "added": "19.08.2026",
+  "transfer": "Niederlande, vergleichbare Versicherungsstruktur, ähnliche Governance-Herausforderungen",
+  "title": "Datenkompetenz in der Langzeitpflege: Organisationale Reife und Barrieren für datengesteuerte Versorgung",
+  "sum": "Mixed-Methods-Studie zur Bewertung der Datenkompetenz in drei niederländischen Langzeitpflegeorganisationen und zur Identifikation von Faktoren, die die Nutzung von Daten für Versorgungsverbesserungen behindern.",
+  "result": "Langzeitpflegeorganisationen zeigen geringe Datenkompetenz, besonders in den Bereichen Strategie, Governance und Datenqualität. Schlüsselhindernisse sind fehlende Vision für datengesteuerte Versorgung, mangelnde Datenkultur, begrenzte interdisziplinäre Zusammenarbeit und unzureichende technische Infrastruktur. Voraussetzung für Fortschritt sind integrierte Strategien, die technische, kulturelle und interprofessionelle Bedingungen verbinden.",
+  "aufgenommen": "2026-08-20"
+ },
+ {
+  "pmid": "42616612",
+  "journal": "JMIR Aging",
+  "year": "2026",
+  "author": "Grosser J et al.",
+  "pubdate": "19.08.2026",
+  "added": "19.08.2026",
+  "transfer": "Deutschlandweit, lokale Daten und Bedingungen, aber externe Störfaktoren müssen kontrolliert werden",
+  "title": "Telemedizin-Intervention in Pflegeheimen: Hospitalisierungsraten und Implementierungsbarrieren",
+  "sum": "Cluster-randomisierte Stepped-Wedge-Studie über 24 Pflegeheime in Nordrhein-Westfalen zu einer intersektorialen Telemedizin-Intervention mit Frühwarnsystem und mobilen Nichtarzt-Assistenten zur Vermeidung von Krankenhauseinweisungen.",
+  "result": "Von 1260 analysierten Regressionsmodellen zeigten etwa zwei Drittel einen negativen (protektiven) Effekt, aber kein Modell erreichte statistische Signifikanz (p<0,05). Die Hypothese einer signifikanten Reduktion von Hospitalisierungen wurde nicht unterstützt. Externe Faktoren wie Hochwasser und COVID-19-Pandemie beeinträchtigten die Implementierung und Effektivitätsmessung erheblich.",
+  "aufgenommen": "2026-08-20"
+ },
+ {
+  "pmid": "42613123",
+  "journal": "BMJ Open",
+  "year": "2026",
+  "author": "Dall'Ora C et al.",
+  "pubdate": "18.08.2026",
+  "added": "18.08.2026",
+  "transfer": "Großbritannien, Arbeitsmärkte ähnlich, aber deutsche Fachkraftknappheit und Schichtsysteme unterscheiden sich",
+  "title": "Schichtplanung in der Pflege: Was Pflegekräfte wirklich wollen – Diskrete-Choice-Experimente",
+  "sum": "Discrete-Choice-Experiment mit 1449 registrierten Pflegekräften aus dem Vereinigten Königreich zur Quantifizierung von Präferenzen für Schichtmerkmale und deren Wechselwirkung mit Bezahlung.",
+  "result": "Alle sechs Schichtattribute waren statistisch signifikante Einflussfaktoren. Stärkste Aversionen: Nur-Nachtschichten (β=−1,113, erfordert 29% Mehrausgleich) und kein freies Wochenende (β=−0,790, erfordert 21% Mehrausgleich). Vorhersehbare Rosters (β=−0,220), Schichtwahlflexibilität (β=−0,189) und Lohnerhöhungen (β=−0,525) reduzierten Unzufriedenheit. 9–10-Stunden-Schichten wurden 8-Stunden-Schichten vorgezogen.",
+  "aufgenommen": "2026-08-20"
+ },
+ {
   "pmid": "42608678",
   "journal": "BMC Geriatr",
   "year": "2026",
