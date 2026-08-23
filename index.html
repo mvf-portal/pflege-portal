@@ -1055,62 +1055,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "21. Aug. 2026, 07:50 Uhr";
+const SNAP_DATE = "23. Aug. 2026, 07:16 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
+  {
+    journal:"Support Care Cancer", year:"2026", pmid:"42627385",
+    author:"Ham L et al.", pubdate:"21.08.2026",
+    added:"21.08.2026",
+    title:"Belastung informeller Pflegender von Krebspatienten: Was Emotionen und Aufopferung damit zu tun haben",
+    sum:"Querschnittserhebung mit 3.171 Angehörigen von Krebspatienten in den Niederlanden (Online-Survey) mit logistischen Regressionsanalysen zu erlebter Belastung und deren Zusammenhängen.",
+    result:"93% gaben an, dass es sich gut anfühlt, für den Angehörigen da zu sein; 83% hatten Angst vor Trauerverlust. Jede fünfte Person (20%) berichtete erhebliche Belastung durch Pflege. Höhere Belastung trat auf, wenn Angehörige das Leben vollständig dem Patienten anpassten und sich stärker gaben als empfunden.",
+    transfer:"Niederlande, vergleichbare Sozialversicherung und Versorgungskultur"
+  },
   {
     journal:"J Med Internet Res", year:"2026", pmid:"42617155",
     author:"Bouchmal S et al.", pubdate:"19.08.2026",
     added:"19.08.2026",
-    title:"Datennutzungsreife in der Langzeitpflege: Wie Pflegeorganisationen ihre Fähigkeit zur datengestützten Entscheidungsfindung verbessern können",
-    sum:"Querschnittstudie in drei niederländischen Langzeitpflegeeinrichtungen zu Reifegrad bei der Datennutzung; gemischte Methoden mit Selbsteinschätzung (77-Item-Tool) und Stakeholder-Interviews.",
-    result:"Langzeitpflegeeinrichtungen zeigen geringe Datenreife. Die Domains Strategie, Governance und Datenqualität waren konsistent niedrig; stark variabel waren Leadership und Kultur. Vier Kernthemen wurden identifiziert: Fehlen einer klaren Vision für datengestützte Versorgung, mangelnde Datenkultur, begrenzte interdisziplinäre Zusammenarbeit und unzureichende technische Infrastruktur. Gezielte Strategien sind notwendig, die technische, kulturelle und interprofessionelle Voraussetzungen verbinden.",
-    transfer:"Niederlande, direkt auf deutsches Langzeitpflegesystem übertragbar"
+    title:"Digitales Datenmanagement in Langzeitpflegeheimen: Reife und Organisationsindikatoren zeigen Rückstand bei Datenkultur",
+    sum:"Mixed-Methods-Studie (3 niederländische Langzeitpflegeheime): Quantitatives Assessment zu Datenreife mit 77 Items (7 Domänen); qualitative Konsens-Fokusgruppen mit 15 Stakeholdern (Pflegende, Management, IT, Bewohner).",
+    result:"Langzeitpflegeheime zeigen durchgehend niedrige Datenmaturität. Lücken bei Strategie (48,6/100), Governance und Datenqualität durchgängig. Größte Defizite: Führung und Datenkultur (variabel). Schlüsselthemen: Fehlende klare Vision, begrenzte interdisziplinäre Zusammenarbeit, infrastrukturelle Kapazität und kulturelle Bereitschaft.",
+    transfer:"Niederlande, vergleichbare Organisationsstrukturen und Pflegedokumentation"
   },
   {
     journal:"JMIR Aging", year:"2026", pmid:"42616612",
     author:"Grosser J et al.", pubdate:"19.08.2026",
     added:"19.08.2026",
-    title:"Telemedizin-Intervention zur Reduktion von Krankenhauseinweisungen in Pflegeheimen: Ergebnisse eines gestaffelten Cluster-Trials",
-    sum:"Prospektive, multizentrische gestaffelte Cluster-RCT in 24 deutschen Pflegeheimen (Mai 2021–April 2023) zur Wirkung einer intersektoralen Telemedizin-Intervention mit frühem Warnsystem und mobilen medizinischen Assistenten auf Krankenhausaufnahmen.",
-    result:"1151 Bewohner in Kontrollphase, 1271 in Interventionsphase. Von 1260 analysierten Regressionsmodellen zeigten etwa zwei Drittel einen protektiven Effekt, aber keines erreichte statistische Signifikanz (p &lt; 0,05). Externe Faktoren (Hochwasser, COVID-19) beeinträchtigten möglicherweise die Effektivität. Hypothese einer signifikanten Reduktion von Krankenhausaufnahmen wird nicht bestätigt.",
-    transfer:"Deutschland (Westfalen), originale Daten aus deutschem Pflegheim-Kontext"
+    title:"Telemedizin mit frühem Warnsystem in Pflegeheimen: Randomisierte gestaffelte Clusterstudie zeigt keine signifikante Reduktion von Krankenhauseinweisungen",
+    sum:"Prospektive, multizentrische, gestaffelt-randomisierte Cluster-Studie (24 Pflegeheime, Westdeutschland, Mai 2021–April 2023): Intersektorale Telemedizin mit Frühwarnsystem und mobilen Assistenzkräften vs. Standard.",
+    result:"N=1.151 Kontrolle, 1.271 Intervention. Etwa zwei Drittel aller getesteten Modellspezifikationen zeigten protektiven Effekt (negative Assoziation mit Hospitalisierung), aber kein Modell erreichte statistische Signifikanz (p&lt;0,05). Externe Faktoren (Flutkatastrophe, COVID-19) beeinträchtigten Wirksamkeit.",
+    transfer:"Deutschland, Kliniken und Pflegeheime, aber externe Faktoren limitierten Aussage"
   },
   {
-    journal:"Gesundheitswesen", year:"2026", pmid:"42617637",
-    author:"Sponsel S et al.", pubdate:"19.08.2026",
-    added:"19.08.2026",
-    title:"Professionelle Gesundheitskompetenz von Hebammen: Ergebnisse einer bayerischen Befragung",
-    sum:"Querschnitts-Online-Befragung von 668 bayerischen Hebammen (November 2023–Mai 2024) mittels PROF-HL-Q (34 Items, vier Kompetenzbereiche) zur professionellen Gesundheitskompetenz.",
-    result:"Mittlere Punktwerte pro Kompetenzbereich lagen zwischen 48,6 und 78,0 von 100 Punkten. Patientenzentrierte Kommunikation am höchsten bewertet, professionelle digitale Gesundheitskompetenz am niedrigsten. Kompetenzbereiche mit Förderungsbedarf identifiziert. Curriculare Anpassungen und gezielte Fort-/Weiterbildungen in Digitalisierung, Evidenzbasierung und Kommunikation erforderlich.",
-    transfer:"Deutschland (Bayern), vollständig in deutschem Kontext und Berufssystem"
+    journal:"JAMA Health Forum", year:"2026", pmid:"42627655",
+    author:"Ramesh T et al.", pubdate:"07.08.2026",
+    added:"21.08.2026",
+    title:"Zuwanderung von Pflegekräften nach dem Brexit: Auswirkungen auf Fachkräftemangel und Krankenhausvakanzen im britischen Gesundheitsdienst",
+    sum:"Querschnittstudie mit Unterbrechungsreihenanalyse: Brexit-Referendum 2016 und Einwanderung von Ärztinnen und Pflegekräften in UK (OECD-Daten 2008–2019) sowie monatliche NHS-Vakanzen April 2015–Dezember 2019.",
+    result:"Brexit-bedingt: 825 EU-Ärzte und 2.771 EU-Pflegekräfte weniger im ersten Jahr. Nicht-EU-Zuwanderung stieg später (+1.437 Pflegekräfte/Jahr 2017–2019), kompensierte aber nicht vollständig. Ärztliche Vakanzen stiegen um 383 Stellen (95%-KI 88–679), Pflegevakanzen blieben erhöht.",
+    transfer:"UK-Migrationspolitik übertragbar auf Versorgungssystemplanung, aber nicht auf Lizensierungsstrukturen"
   },
   {
-    journal:"BMC Geriatr", year:"2026", pmid:"42608678",
-    author:"Molitor V et al.", pubdate:"15.08.2026",
-    added:"18.08.2026",
-    title:"Delirium überlagert auf Demenz in Pflegeheimen: Prävalenz, Inzidenz und Prognose – Studienprotokoll",
-    sum:"Prospektives deutsches Multizentre-Kohorten-Studienprotokoll (August 2025–Juli 2028) in etwa 20 niedersächsischen Pflegeheimen, ca. 300 Bewohner mit Demenz, zum Auftreten von Delirium mittels wöchentlichem Screening über 6 Monate.",
-    result:"Noch laufend. Geplant: Erhebung von Prävalenz und Inzidenz von Delirium überlagert auf Demenz, Identifikation von Risikofaktoren, Analyse von Pflegeprozessen und körperlicher Aktivität mittels I-AGeD, DRS-R-98 und DMSS; Ziel ist evidenzgestützte Deliriumprävention und -versorgung im Heimsetting.",
-    transfer:"Deutschland (Niedersachsen), originales deutsches Pflegeheim-Setting"
+    journal:"East Mediterr Health J", year:"2026", pmid:"42626802",
+    author:"Čučević Đ et al.", pubdate:"02.08.2026",
+    added:"21.08.2026",
+    title:"Nadelstichverletzungen unter Pflegekräften und medizinischem Personal: Fünf-Jahres-Analyse aus kroatischen Universitätskliniken",
+    sum:"Retrosprektive Analyse gemeldeter Nadelstich- und Schnittschutzunfälle 2018–2022 an zwei Universitätskliniken in Kroatien; Vergleich Pre-Pandemie (2018–2019) vs. Pandemie (2020–2022).",
+    result:"3.554 Nadelstichverletzungen über fünf Jahre; Nadeln verursachten 68,6% (2.373 Fälle). Pflegekräfte und medizinisch-technische Angestellte waren mit 51,4% am stärksten betroffen (95%-KI 49,7–53,0). Verletzungen nahmen während Pandemie zu: 1.930 vs. 1.624 vor Pandemie.",
+    transfer:"Europa, ähnliche Infektionsschutzstandards, aber höhere Belastung durch Pandemie"
   },
   {
-    journal:"BMC Palliat Care", year:"2026", pmid:"42576216",
-    author:"Åvik Persson H et al.", pubdate:"11.08.2026",
-    added:"11.08.2026",
-    title:"Implementierung von Palliativpflege in Pflegeheimen: Führungserfahrungen nach Weiterbildungsintervention für Personal",
-    sum:"Langzeit-Qualitativfolgestudie (22 Interviews mit Managern) schwedischer Pflegeheime nach einem multizentrischen Schulungsprogramm (KUPA) zur Umsetzung evidenzgestützter Palliativversorgung.",
-    result:"Drei Kernthemen: Manager navigieren organisatorische Barrieren durch Stabilität, Kontinuität und Mitarbeiterschulung trotz Ressourcenmangel; sie unterstützen Motivation und positive Haltung; Schulung brachte gemeinsame Sprache, holistische Versorgungskultur und verbesserte interdisziplinäre Zusammenarbeit. Erfolgreiche Implementierung erfordert Langzeit-Engagement, finanzielle Mittel und Managementkompetenz.",
-    transfer:"Schweden, europäisches Langzeitpflegesystem mit ähnlichen Strukturen"
-  },
-  {
-    journal:"Age Ageing", year:"2026", pmid:"42580694",
-    author:"Nwolise C et al.", pubdate:"03.08.2026",
-    added:"11.08.2026",
-    title:"Hospital at Home für Pflegeheimbewohner mit körperlichem Abbau: Erfahrungen von Pflegeheim-Mitarbeitern",
-    sum:"Qualitative Studie (20 Interviews mit Pflegeheim-Mitarbeitern) in südengländischen Pflegeheimen zur Wahrnehmung von Hospital-at-Home-Versorgung als Alternative zur Krankenhausaufnahme.",
-    result:"Pflegeheim-Personal sah Hospital at Home als vorteilhaft an: verbesserte Kontinuität, Würde, Comfort, reduzierte Krankenhausrisiken (Delir, nosokomiale Infektionen). Barrieren: begrenzte Personalkapazität, geografische Abdeckung, Öffnungszeiten, Referral-Prozesse. HaH war oft dem Krankenhaus überlegen, wenn verfügbar; Hospitalisierung blieb für Frakturen und akute Notfälle notwendig.",
-    transfer:"England, vergleichbares NHS-Langzeitversorgungssystem"
+    journal:"J Nurs Manag", year:"2026", pmid:"42630083",
+    author:"Annunziata KN et al.", pubdate:"2026",
+    added:"22.08.2026",
+    title:"Organisationale Führung und psychische Belastung der Pflegenden: Sichere Erkenntnisse zu Arbeitsbelastung und Unterstützung aus qualitativen Interviews mit europäischen Pflegekräften in der Suchtbehandlung",
+    sum:"Interviews mit 15 europäischen Pflegekräften in der Suchtbehandlung untersuchten, wie Arbeitsbelastung durch Sekundärtraumatisierung entsteht und welche Führungsinterventionen sie abmildern.",
+    result:"Organisationale Führung fungierte als Risiko- oder Schutzfaktor: unterstützende, strukturierte Maßnahmen wie Awareness, Schulung und emotionale Unterstützung reduzierten die Auswirkungen. Schlecht ausgestaltete Führung verschärfte die Belastung.",
+    transfer:"Europa, Qualitativ, Schnittstellenposition zwischen Burnout und Organisationsinterventionen"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
