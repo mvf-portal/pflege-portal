@@ -1,5 +1,57 @@
 [
  {
+  "pmid": "42633689",
+  "journal": "J Eval Clin Pract",
+  "year": "2026",
+  "author": "Chen JS et al.",
+  "pubdate": "Aug. 2026",
+  "added": "23.08.2026",
+  "transfer": "Taiwan, Qualitätsintervention; Transitionsmanagement und Medikamentensicherheit auf verschiedene Kontexte übertragbar.",
+  "title": "Medikamentensicherheits-Checkliste bei Pflegeheim-Übergängen: 51 % niedrigeres Wiederaufnahmrisiko",
+  "sum": "Quasiexperimentelle Pilotstudie (n=200 Heimbewohner in Taiwan) zum Effekt einer risiko-basierten Medikamentensicherheits-Checkliste bei Entlassung auf ungeplante Krankenhauswiederaufnahmen in 90 Tagen.",
+  "result": "Interventionsgruppe mit Checkliste: 51,1 % geringeres Wiederaufnahmerisiko als Kontrollgruppe (HR = 0,489; 95%-KI: 0,324–0,731). Präventive Medikationenkommunikation und Hochrisiko-Identifikation zeigt Machbarkeit. Als Pilotstudie mit Clusterallokation bedarf es Bestätigung in größeren Randomisierungsstudien.",
+  "aufgenommen": "2026-08-24"
+ },
+ {
+  "pmid": "42632919",
+  "journal": "Age Ageing",
+  "year": "2026",
+  "author": "Egbujie BA et al.",
+  "pubdate": "03.08.2026",
+  "added": "23.08.2026",
+  "transfer": "Kanada, vergleichbares Langzeitpflegesystem; Routinedaten (interRAI) für Versorgungsplanung genutzt.",
+  "title": "Intrinsische Kapazität und Pflegeergebnisse im häuslichen Kontext: Fünf Verlaufstrends mit unterschiedlichen Risiken",
+  "sum": "Kanadische Kohortenstudie (n=302.467 Heimenpflegepatienten) mit Analyse von Intrinsic-Capacity-Trajektorien über die Zeit mittels Group-Based Trajectory Modelling und Assoziationen zu Mortalität und Pflegeheimaufnahme.",
+  "result": "Fünf unterschiedliche Kapazitätsverlaufstrends identifiziert. Moderate Ausgangskapazität mit stabiler oder verbesserter Trajektorie führte zu niedrigerer Pflegeheimaufnahmerate (38,1 %) als moderate Kapazität mit Verschlechterung (48,4 %). Kognitive Beeinträchtigung stark mit negativen Trajektorien assoziiert. Einzelne Assessments erfassen outcome-Heterogenität unzureichend.",
+  "aufgenommen": "2026-08-24"
+ },
+ {
+  "pmid": "42632918",
+  "journal": "Age Ageing",
+  "year": "2026",
+  "author": "Bricout H et al.",
+  "pubdate": "03.08.2026",
+  "added": "23.08.2026",
+  "transfer": "Frankreich, vergleichbare Altersstruktur und Dokumentation; methodisch rigoros mit Propensity-Matching.",
+  "title": "Hochdosis-Grippeimpfstoff in Pflegeheimen: 30,8 % weniger Krankenhauseinweisungen für Heimbewohner ab 65",
+  "sum": "Französische Kohortenstudie zur Effektivität von Hochdosis- gegenüber Standarddosis-Influenza-Impfstoff in 76.858 gematchten Heimbewohnern (Durchschnittsalter 88 Jahre) in der Saison 2022–2023.",
+  "result": "Hochdosis-Impfstoff führte zu 30,8 % weniger influenzabedingten Krankenhauseinweisungen (95%-KI: 11,8–45,7; p = 0,0029; 302 vs. 438 pro 100.000 Personenjahre). Kein signifikanter Effekt auf Pneumonie oder Kombinationsergebnisse. Relative Vakzineeffektivität für prioritäre Risikogruppe bestätigt.",
+  "aufgenommen": "2026-08-24"
+ },
+ {
+  "pmid": "42608687",
+  "journal": "BMC Health Serv Res",
+  "year": "2026",
+  "author": "Gurisch C et al.",
+  "pubdate": "12.08.2026",
+  "added": "18.08.2026",
+  "transfer": "Deutschland, Analyse für deutsches Gesundheitssystem; zeigt erhebliche Datenlücken auf.",
+  "title": "Magnet®-Zertifizierung in deutschen Kliniken: Kostendaten und Implementierungslücken für Pflegeverbesserung",
+  "sum": "Scoping Review und Interviews (n=6) mit Pflegeleitung in fünf deutschen Unikliniken zur Identifikation von Kosten und Einsparungen bei Magnet®-Zertifizierung in deutschem Kontext.",
+  "result": "Kosten: ANCC-Gebühren, Benchmarking, Personalentwicklung, Datenmanagementsysteme. Deutsche Besonderheit: Akademisierung von Pflegekräften und Pflegeindikatoren als Kostenblöcke. Einsparungspotenziale bei pflegeindikatoren, Personalbinduung, Krankenhausleistung identifiziert, aber kritische Datenlücken für Kosteneffizienz-Analyse in Deutschland.",
+  "aufgenommen": "2026-08-24"
+ },
+ {
   "pmid": "42630083",
   "journal": "J Nurs Manag",
   "year": "2026",
