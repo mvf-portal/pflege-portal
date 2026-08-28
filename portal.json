@@ -60,5 +60,6 @@
   "N_RUBRIKEN": "11",
   "N_GLOSSAR": "156",
   "META_NEWSLETTER": "Newsletter von Monitor Versorgungsforschung bestellen: den täglichen Studien-Newsletter zu Pflege und Langzeitversorgung, die Studienauswahl der Schwesterportale, den redaktionellen MVF-Newsletter — einzeln oder zusammen.",
-  "NL_STUDIEN_WAS": "Die Studienauswahl des Hubs jeden Morgen per E-Mail: neue Arbeiten zur pflegerischen Versorgung, zur Langzeitpflege und zur Lage der Pflegenden, mit deutschen Zusammenfassungen, den Ergebniszahlen und der Einordnung, was sich auf Deutschland übertragen lässt. Dazu die Word- und Excel-Datei zum Tag."
+  "NL_STUDIEN_WAS": "Die Studienauswahl des Hubs jeden Morgen per E-Mail: neue Arbeiten zur pflegerischen Versorgung, zur Langzeitpflege und zur Lage der Pflegenden, mit deutschen Zusammenfassungen, den Ergebniszahlen und der Einordnung, was sich auf Deutschland übertragen lässt. Dazu die Word- und Excel-Datei zum Tag.",
+  "CRON_MIN": "15"
 }
