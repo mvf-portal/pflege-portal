@@ -2,6 +2,7 @@
   "_": "Themenprofil Pflege & Langzeitversorgung. Angelegt am 18.08.2026. Alle live-Links wurden am selben Tag zweimal abgerufen (echter Begriff gegen Phantasiewort); was den Parameter nicht auswertet, steht als portal.",
   "_OFFEN": "Erledigt am 18.08.2026: Die Mailchimp-Gruppe 'Studien Newsletter Pflege' ist angelegt, ihre Kennung group[16138][4096] auf der gehosteten Anmeldeseite abgelesen und ueber den Wrapper mergeRow-100-16138 gegengeprueft. Ein gleichnamiger TAG existiert weiterhin nicht (mc_tag_id = 0); der Versand laeuft dann allein ueber die Gruppe.",
   "DOMAIN": "pflege.m-vf.de",
+  "HUB": "pflege",
   "REPO": "mvf-portal/pflege-portal",
   "TITEL": "Knowledge-Hub Pflege & Langzeitversorgung",
   "TITEL_KURZ": "Pflege",
