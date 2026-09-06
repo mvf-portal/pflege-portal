@@ -1402,62 +1402,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "5. Sept. 2026, 05:27 Uhr";
+const SNAP_DATE = "6. Sept. 2026, 05:28 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Glob Health Action", year:"2026", pmid:"42695126",
-    author:"Asaye MM et al.", pubdate:"04.09.2026",
+    journal:"Scand J Caring Sci", year:"2026", pmid:"42698201",
+    author:"Rudebeck TL et al.", pubdate:"Sept. 2026",
+    added:"05.09.2026",
+    title:"Akutereignisse im Pflegeheim: Wie Personalressourcen und Organisationsstruktur die Patientensicherheit prägen",
+    sum:"Qualitative Feldbeobachtungsstudie (180 Stunden, 38 akute Ereignisse) in vier dänischen Pflegeheimen zur Erfassung von Erkennung und Management akuter Ereignisse bei Bewohnern.",
+    result:"Akutereignisse werden durch Personalbemessung, Ressourcenausstattung und sektorenübergreifende Zusammenarbeit geprägt, nicht allein durch Patientenbedarf: Strukturelle Vulnerabilität gefährdet Autonomie und Integrität der Bewohner.",
+    transfer:"Dänemark, vergleichbare Pflegekontexte und Versorgungsherausforderungen"
+  },
+  {
+    journal:"Int Nurs Rev", year:"2026", pmid:"42695137",
+    author:"Montenegro-Méndez S et al.", pubdate:"Sept. 2026",
     added:"04.09.2026",
-    title:"Hebammenbetreute Geburtshilfe in Äthiopien: Frauen berichten von Empowerment und Unterstützung",
-    sum:"Qualitative Studie zu Erfahrungen von 16 Erstgebärenden mit kontinuierlicher hebammengeleiteter Geburtshilfe an vier Krankenhäusern in Äthiopien (Juli–Dezember 2024).",
-    result:"Vier Themen identifiziert: emotionales Empowerment und Mindset-Transformation; mitfühlende und respektvolle Versorgung; physische und informationelle Unterstützung; Wunsch nach ausgeweiteter Unterstützung. Frauen bewerteten diesen Ansatz als überlegen gegenüber Standardversorgung und befürworteten breite Einführung.",
-    transfer:"Äthiopien, Geburtshilfe, Übertragbar bei ähnlichen Ressourcen- und Frauengesundheitskontexten"
+    title:"Führungsverhalten, psychologische Sicherheit und Burnout bei Intensivpflegenden: indirekte Assoziationen",
+    sum:"Querschnittsstudie mit 305 Intensivpflegenden aus Spanien zum Zusammenhang zwischen Secure Base Leadership des Vorgesetzten, organisationaler Dehumanisierung, psychologischer Sicherheit und Burnout.",
+    result:"Direkte Assoziation zwischen Führungsverhalten und Burnout nicht signifikant; indirekt: Secure Base Leadership reduziert Dehumanisierung (p&lt;0,05) und erhöht psychologische Sicherheit, was Burnout senkt und Work Engagement erhöht. Modell erklärt 20% der Burnout-Varianz.",
+    transfer:"Spanien, europäische Klinikstruktur und Personalherausforderungen"
   },
   {
-    journal:"J Vis Exp", year:"2026", pmid:"42695612",
-    author:"Tian F et al.", pubdate:"03.09.2026",
+    journal:"Scand J Caring Sci", year:"2026", pmid:"42698201",
+    author:"Rudebeck TL et al.", pubdate:"Sept. 2026",
+    added:"05.09.2026",
+    title:"Sichere Beobachtung in Pflegeheimen: Organisationsstruktur entscheidet über Patientensicherheit bei Akutereignissen",
+    sum:"Feldbeobachtungsstudie (38 akute Ereignisse) in vier dänischen Heimen zu Faktoren bei Detektion und Management von Notfallsituationen bei hochvulnerablen Bewohnern.",
+    result:"Erkennung und Management von Akutereignissen werden stärker von Kontext geprägt (Besetzung, Ressourcen, Intersektoralität) als von Patientenpräferenzen; Risiko für Autonomie- und Integritätsverletzungen systemisch strukturiert.",
+    transfer:"Dänemark, vergleichbare nordeuropäische Pflegesysteme"
+  },
+  {
+    journal:"Nurs Open", year:"2026", pmid:"42698106",
+    author:"Prothero L et al.", pubdate:"Sept. 2026",
+    added:"05.09.2026",
+    title:"Simulationstraining statt Patientenbetreuung: gleichwertiges Lernresultat bei Pflegestudierenden",
+    sum:"Systematischer Review mit Meta-Analyse (42 Studien, 5.336 Studierende) zu Effektivität von Simulationstraining allein oder kombiniert mit Klientenkontakt gegenüber reiner Klientenbetreuung.",
+    result:"Vergleich 1 (Simulation vs. klinische Lehre): SMD=0,96 (95%-KI 0,63–1,30); Vergleich 2 (Simulation+Klinik vs. Klinik allein): SMD=0,82 (95%-KI 0,49–1,15). Alle 42 Studien berichten gute oder bessere Ergebnisse für Simulation.",
+    transfer:"Großbritannien, internationale Studien zu Lehr-/Lernergebnissen"
+  },
+  {
+    journal:"Rev Esc Enferm USP", year:"2026", pmid:"42696751",
+    author:"Öztürk Y et al.", pubdate:"28.08.2026",
     added:"04.09.2026",
-    title:"Plan-Do-Check-Act Hygiene-Paket: Compliance, Infektionsraten und Pflegequa­lität im Krankenhaus",
-    sum:"Kontrollierte Vorher-Nachher-Studie zur Wirkung eines zyklischen Verbesserungs­bundles (PDCA) auf Händedesinfektions-Compliance und nosokomiale Infektionen in 16 Krankenhausstationen in China.",
-    result:"Händedesinfektions-Compliance stieg in der Interventionsgruppe von 66,2 % auf 83,2 % (Kontrollgruppe: 63,1 % auf 66,8 %); bereinigte Odds Ratio 2,38 (95%-KI: 2,19–2,59). Nosokomiale Infektionsrate sank von 7,07 auf 4,37 pro 1000 Patiententage; bereinigte Inzidenzrate-Ratio 0,60 (95%-KI: 0,52–0,69). PDCA-Governance zeigte Wirkung auf Infektionen und Pflegekvalität.",
-    transfer:"Klinikdaten, Infektionsprävention deutschlandweit Vergütungssystem nicht relevant"
+    title:"Achtsamkeit und Selbstmitgefühl reduzieren Burnout-Symptome bei klinischen Pflegenden",
+    sum:"Querschnittstudie mit 220 Pflegenden in öffentlichem Spital (März–Juni 2024) zu Beziehungen zwischen Achtsamkeit, Selbstmitgefühl und Compassion Fatigue mittels Korrelations- und Regressionsanalysen.",
+    result:"Achtsamkeit (M=61,78±11,29) korreliert positiv mit Selbstmitgefühl (r=0,33, p&lt;0,05) und negativ mit Compassion Fatigue (r=−0,34, p&lt;0,05); Selbstmitgefühl korreliert negativ mit Fatigue (r=−0,40, p&lt;0,05). Multiple Regression: Achtsamkeit (β=−0,42) und Selbstmitgefühl (β=−0,96) erklären gemeinsam 21,1% der Fatigue-Varianz.",
+    transfer:"Brasilien, Krankenhauskontext mit vergleichbaren Burnout-Phänomenen"
   },
   {
-    journal:"BMJ Open", year:"2026", pmid:"42692524",
-    author:"Boeijen JA et al.", pubdate:"03.09.2026",
-    added:"03.09.2026",
-    title:"Hausbetreute COVID-19-Patienten mit Sauerstofftherapie: Machbarkeit und Kosten",
-    sum:"Partizipative Aktionsforschung zur Pilotierung einer ambulanten Versorgung für 13 COVID-19-Patienten mit Sauerstoffbedarf in den Niederlanden; Kosten- und Durchführbarkeitsanalyse versus stationäre Aufnahme.",
-    result:"Mediane Betreuungsdauer 7 Tage (SD 3,4), durchschnittliche Kosten €1124 pro Patient. Keine Interventionszwischenfälle. Gegenüber Krankenhausaufnahme Kostenersparnis geschätzt auf €1087–€2850 pro Patient. Machbarkeit trotz Kommunikations- und Logistikherausforderungen gegeben.",
-    transfer:"Niederlande, vergleichbares Versicherungssystem und Allgemeinmedizin-Netzwerk"
+    journal:"BMC Health Serv Res", year:"2026", pmid:"42698085",
+    author:"Noh JW et al.", pubdate:"06.08.2026",
+    added:"05.09.2026",
+    title:"Sozioökonomische Barrieren beim Zugang zur Pflegeversicherung: wann beantragen Ältere Leistungen?",
+    sum:"Deskriptive Analyse von 1,07 Millionen Erwachsenen (2008–2022) zu Alter bei Antrag und Genehmigung für Koreas Pflegeversicherung und zum Einfluss von Einkommen, Versicherungstyp und Morbidität.",
+    result:"Durchschnittliches Antrittsalter 79,98 Jahre (Genehmigung 80,95), deutlich über initialer Anspruchsberechtigung (65 Jahre). Frauen, chronisch weniger Erkrankte und Angehörige höchsten/niedrigsten Einkommensdezils traten später ein; Medical-Aid-Bezieher früher. Struktur- und Informationshindernisse evident.",
+    transfer:"Südkorea, vergleichbares Versicherungssystem mit Teilkasko-Logik"
   },
   {
-    journal:"BMJ Open Qual", year:"2026", pmid:"42686381",
-    author:"Palimetaki F et al.", pubdate:"02.09.2026",
-    added:"02.09.2026",
-    title:"Patientenstimmen bei Inspektionen von Langzeitpflegheimen in den Niederlanden",
-    sum:"Explorative Studie zu 273 Inspektionsberichten niederländischer Pflegeheime (2020–2023): Untersucht wurden Häufigkeit und Art von Zitaten Bewohnererfahrungen als Informationsquelle bei Qualitätsbewertungen.",
-    result:"Signifikanter Anstieg positiver Zitate von Bewohnern bei 3 von 16 Bewertungskriterien (2020–2023), insbesondere für Person-centered care. Trotz Zunahme bleibt Raum zur stärkeren Einbeziehung von Bewohnererfahrungen in Qualitätsberichten von Langzeitpflegheimen.",
-    transfer:"Niederlande, vergleichbare Inspektionsstruktur und MDK-ähnliche Aufsicht"
-  },
-  {
-    journal:"Int Nurs Rev", year:"2026", pmid:"42694001",
-    author:"Kaplan A et al.", pubdate:"Sept. 2026",
-    added:"04.09.2026",
-    title:"Schlafmangel in Nachschichten: Folgen für Kognition und Übergabepflege",
-    sum:"Querschnittsstudie von 270 Pflegekräften in Notaufnahmen, Intensivstationen und Stationen zur Assoziation zwischen Tagesmüdigkeit während Nachtwachen und selbstberichteter kognitiver Kontrolle, kognitiver Flexibilität und Handover-Effektivität.",
-    result:"Mittlere Müdigkeitswerte im Schichtdurchschnitt 6,41 ± 1,81; höchster Wert um 6 Uhr (7,58 ± 2,35). Höhere Müdigkeit korrelierte mit niedrigerer kognitiver Kontrolle und Flexibilität (β = -0,510; p &lt; 0,001) und niedrigerer Handover-Effektivität (β = -0,670; p &lt; 0,001). Müdigkeit als Gesundheitsrisiko für Patientensicherheit nachgewiesen.",
-    transfer:"Türkei, Arbeitsschutz in Schichtarbeit, vergleichbare Versorgungsstrukturen"
-  },
-  {
-    journal:"Int Nurs Rev", year:"2026", pmid:"42695752",
-    author:"Ibrahim FM et al.", pubdate:"Sept. 2026",
-    added:"04.09.2026",
-    title:"Pflegekräfte gewinnen und halten: Übergangsprogramme wirken auf Verbleib im Beruf",
-    sum:"Narratives Policy Review (2016–2026) von 24 Datenquellen zu Interventionen beim Aufbau, der Rekrutierung und Bindung von Krankenhausfachkräften; strukturierte Analyse von Übergangs-, Rekrutierungs- und Retentionsinstrumenten.",
-    result:"Übergangs- und Nurse-Residency-Programme zeigten konsistenteste Evidenz für Verbleib von Berufsanfängern, auch wenn Heterogenität die Sicherheit einschränkte. Arbeitsumfeld, Personalausstattung, Führung und Sicherheit meist observational. Fokus auf Arbeitsausstattung und Führungsreformen erforderlich; mehrere Pfade noch unvalidiert.",
-    transfer:"Internationale Evidenz, fokussiert USA und Europa; deutschlands Transitionsprogramme noch ausbaubedürftig"
+    journal:"J Nurs Manag", year:"2026", pmid:"42670663",
+    author:"Flynn A et al.", pubdate:"2026",
+    added:"31.08.2026",
+    title:"Nachhaltigkeit und Klimabewusstsein bei Pflegenden: Einstellung und Barrieren zur Implementierung",
+    sum:"Querschnittsbefragung (256 Pflegende und Hebammen, SANS-2-Instrument) zu Haltungen zur Nachhaltigkeit und wahrgenommenen Hindernissen für nachhaltige Praktiken in Pflege- und Hebammentätigkeit.",
+    result:"78% sehen Klimawandel, 87,1% Nachhaltigkeit als wichtig; 68,8% bzw. 77,7% befürworten curriculare Integration. 84,4% wenden Nachhaltigkeitsprinzipien zuhause an, aber nur 53,5% in der Berufspraxis (p&lt;0,001). Hierarchische Strukturen und fehlende Selbstsicherheit hemmen Veränderungen.",
+    transfer:"Irland, UK, Deutschland – europäische NHS- und Gesundheitssysteme"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1473,7 +1482,7 @@ const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20", "2026-09-07", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "05.09.2026";
+const NEWS_STAND = "06.09.2026";
 const NEWS = [
   {titel:"770 Millionen Euro Minus in der Pflege: GKV-Spitzenverband warnt", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/770-millionen-euro-minus-in-der-pflege-gkv-spitzenverband-warnt/"},
   {titel:"Digitaler Zwilling für Pflegeheim: Projekt der Universitätsmedizin Oldenburg", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/digitaler-zwilling-fuer-pflegeheim-projekt-der-universitaetsmedizin-oldenburg/"},
