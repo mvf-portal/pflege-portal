@@ -1515,53 +1515,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "20. Sept. 2026, 06:20 Uhr";
+const SNAP_DATE = "21. Sept. 2026, 06:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Front Public Health", year:"2026", pmid:"42761123",
-    author:"Czakert J et al.", pubdate:"04.09.2026",
-    added:"19.09.2026",
-    title:"Workplace-Health-Förderung in der Langzeitpflege: Barrieren und Erfolgsfaktoren bei der Umsetzung",
-    sum:"Qualitative Evaluierung der Entwicklung und Implementierung von drei Gesundheitsförderungsworkshops in Langzeitpflegeeinrichtungen in Deutschland mit Fokus auf Hindernisse und Gelingensbedingungen.",
-    result:"Aktive Teilnahme war zentral: Ein Drittel der Teilnehmenden zeigte aktive Beteiligung, andere Passivität bis Widerstand. Kritische Erfolgsfaktoren waren organisatorische Vorbereitung und motivierende Workshop-Gestaltung; Anpassungen nach der ersten Runde führten zu verbesserter Akzeptanz.",
-    transfer:"Deutschland (Charité Berlin), Langzeitpflegeeinrichtungen als Setting"
+    journal:"Jpn J Nurs Sci", year:"2026", pmid:"42764206",
+    author:"Aoyagi H et al.", pubdate:"Okt. 2026",
+    added:"20.09.2026",
+    title:"Wissen und Praxis zu Herztoxizität bei Brustkrebs: Lücken zwischen Onkologie- und Kardiologie-Pflegenden",
+    sum:"Online-Befragung von 261 zertifizierten Pflegespezialisten und -fachkräften in Japan (214 Onkologie, 47 Kardiologie) zu Wissen und pflegerischen Praktiken bei krebstherapie-assoziierter Herzdysfunktion (CTRCD).",
+    result:"Onkologen- und Kardiologie-Pflegende unterschieden sich signifikant in CTRCD-Wissen (p&lt;0,01). Nur 56,8 % der Onkologen-Pflegenden führten Patientenschulung durch, 63,9 % überwachten Symptome. Nur 10,3 % hatten Zugang zu onko-kardiologischen Fortbildungsangeboten. Kardiologische Pflegende berichteten mehr Anfragen/Konsultationen (p&lt;0,05).",
+    transfer:"Japan – anderes Gesundheitssystem; aber Befund zu interprofessionellen Lücken in Versorgung ist transferierbar"
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42761087",
-    author:"Wang Y et al.", pubdate:"04.09.2026",
-    added:"19.09.2026",
-    title:"Berufliche Zufriedenheit von Pflegekräften im OP-Dienst: Rolle von Organisationsunterstützung und psychischem Kapital",
-    sum:"Querschnittstudie bei 401 Pflegekräften in Operationsabteilungen (CSSD) in China zur Untersuchung indirekter Effekte von wahrgenommener Organisationsunterstützung und psychologischem Kapital auf den Zusammenhang zwischen Jobgestaltung und beruflicher Wohlbefindung.",
-    result:"Pfadanalyse zeigte schwachen direkten Effekt von Jobgestaltung auf Wohlbefindung (β=0,185), aber erhebliche Gesamteffekt (0,838). Indirekte Assoziationen über Organisationsunterstützung (β=0,511) und psychisches Kapital (β=0,142) waren statistisch signifikant (p&lt;0,001). Frauen und erfahrene Pflegekräfte berichteten niedrigere Wohlbefindungswerte.",
-    transfer:"China, aber Befunde zum psychosozialen Kontext der Pflegekräfte gelten universell"
+    journal:"BMJ Open", year:"2026", pmid:"42764187",
+    author:"Rahja M et al.", pubdate:"20.09.2026",
+    added:"20.09.2026",
+    title:"Pflegeheimtyp und Bewohnersterblichkeit: Australische Langzeitstudie zu Eigentum und Versorgungsergebnis",
+    sum:"Retrospektive Kohortenstudie an 205.079 australischen Pflegeheimbewohnern (65+J.), die die Assoziation zwischen Trägerform (privat, gemeinnützig, staatlich) und Mortalität, Notaufnahmen sowie Krankenhauseinweisungen im ersten Jahr nach Aufnahme untersuchte.",
+    result:"Bewohner von privaten Heimen in Regionalgebieten hatten höhere Mortalität als in gemeinnützigen Heimen (HR 1,17, KI 1,09–1,26). In staatlichen Heimen waren Notaufnahmen und Krankenhauseinweisungen deutlich seltener (sHR 0,68 bzw. 0,61 gegenüber gemeinnützigen). Unterschiede waren in inneren Regionalgebieten am stärksten ausgeprägt.",
+    transfer:"Australische Registerdata; Ergebnisse nicht direkt auf deutsches Gesamtumlagesystem übertragbar, aber relevant für Trägerdebatten"
   },
   {
-    journal:"J Wound Ostomy Continence Nurs", year:"2026", pmid:"42758163",
-    author:"Magi CE et al.", pubdate:"Sept. 2026",
+    journal:"Front Public Health", year:"2026", pmid:"42756955",
+    author:"Zhu W et al.", pubdate:"03.09.2026",
     added:"18.09.2026",
-    title:"Selbstpflege bei Menschen mit Stoma: Unterschiede zwischen Patienten und pflegenden Angehörigen",
-    sum:"Querschnittsuntersuchung bei 523 Stomapatientinnen und -patienten und 252 pflegenden Angehörigen aus zwei italienischen Regionen zur Erfassung von Selbstpflege-Engagement und Unterstützung durch Angehörige.",
-    result:"Patienten und Angehörige zeigten angemessene Selbstpflege-Wartung, aber unzureichendes Selbstmanagement und Sicherheit. Männer schnitten bei einzelnen Items schlechter ab als Frauen; zwischen den Geschlechtern keine signifikanten Unterschiede beim Engagement der Angehörigen. Angehörige bewerteten spezifische Monitoring-Items niedriger als Patienten.",
-    transfer:"Italien, vergleichbare Versorgungsstrukturen in südeuropäischen Gesundheitssystemen"
+    title:"Umfassende Pflegeinterventionen bei Adenomyose: Wirkung auf Schmerz und Lebensqualität",
+    sum:"Prospektive Kohortenstudie mit 120 Frauen nach Hysterektomie wegen Adenomyose, die untersucht, wie zusätzliche pflegerische Interventionen über Routine hinaus Schmerz, Erholung und sexuelle Lebensqualität verändern.",
+    result:"Frauen mit umfassenden Interventionen hatten niedrigere Schmerzwerte (p&lt;0,05), kürzere Krankenhausaufenthalte, frühere Mobilisierung und signifikant höhere sexuelle Lebensqualität (FSFI) sowie bessere psychische Gesundheit (SAS/SDS). Pflegezufriedenheit war deutlich höher (p&lt;0,05).",
+    transfer:"China – Hochschul-Krankenhaus; Vergleichbarkeit der Pflegemaßnahmen gering"
   },
   {
-    journal:"Biomedica", year:"2026", pmid:"42757794",
-    author:"Tiryaki Ö", pubdate:"20.08.2026",
+    journal:"Nurs Open", year:"2026", pmid:"42758937",
+    author:"Balideh D et al.", pubdate:"Sept. 2026",
     added:"18.09.2026",
-    title:"Impfschulung für Pflegekräfte: Effektivität für Impfberatung von Eltern",
-    sum:"Quasi-experimentelle Studie bei 249 Hebammen und Pflegekräften zur Messung von Veränderungen in Vaccine-Advocacy-Scores vor und nach einer Schulungsintervention.",
-    result:"Prätraining-Score Vaccine Advocacy Scale: 45,19±2,85; Post-Training: 46,95±1,99 (Wilcoxon p=0,000). Obwohl bereits hohe Ausgangswerte vorlagen, zeigte sich statistisch signifikante Steigerung. Training war wirksam, trotz bereits guter Baseline.",
-    transfer:"Türkei, aber Schulungswirksamkeit bei Gesundheitsfachkräften ist kontextunabhängig"
+    title:"Ästhetik-Schulung für Psychiatrie-Pflegende: Wirkung auf Mitgefühl und Pflegequality",
+    sum:"Quasi-experimentelle Studie mit 90 Psychiatrie-Pflegenden (45 Intervention, 45 Kontrolle), bei der vier wöchentliche 90-Minuten-Module zu Ästhetik der Pflegearbeit deren Mitgefühls-Kompetenz und ästhetische Pflegequalität verändert.",
+    result:"Interventionsgruppe steigerte mittlere ästhetische Pflegequality von 43,26 (SD 2,18) auf 81,02 (SD 6,26) vs. Kontrolle ohne Änderung (p&lt;0,001). Mitgefühls-Kompetenz stieg in Intervention auf 60,73 (SD 16,17) vs. Kontrolle (p&lt;0,001). Kontrollgruppe zeigte keine Veränderung (p=0,12).",
+    transfer:"Iran – Universitätskrankenhaus; Transferierbarkeit der Schulungsmaßnahmen begrenzt"
   },
   {
-    journal:"J Nurs Manag", year:"2026", pmid:"42760590",
-    author:"Radford K et al.", pubdate:"2026",
+    journal:"Sex Reprod Healthc", year:"2026", pmid:"42617203",
+    author:"Søndergaard SR et al.", pubdate:"12.08.2026",
+    added:"19.08.2026",
+    title:"Hebammenausbildung: Kompetenzlücken bei Geburtshilfekern-Inhalten und psychische Belastung am Ende des Studiums",
+    sum:"Befragung von 158 dänischen Hebammen zum Abschluss ihrer Ausbildung über wahrgenommene Kompetenz, Wichtigkeit klinischer Fähigkeiten und Unterstützung durch Lernumgebung; 33,5 % zeigten Risiko für Stress oder Depression nach WHO-5-Score.",
+    result:"Hebammen bewerteten medizinische Kompetenzen hoch, aber grundlegende Hebammen-Kompetenzen wie flexible Gebärpositionen, nicht-pharmakologische Schmerzlinderung und Dammnaht niedrig – trotz wahrgenommener Wichtigkeit. Wo Kompetenz niedrig bewertet wurde, fehlte oft Unterstützung durch Lernumgebung.",
+    transfer:"Dänemark – vergleichbare EU-Hebammenausbildung und -Regelwerk"
+  },
+  {
+    journal:"J Nurs Manag", year:"2026", pmid:"42760768",
+    author:"Yeh SJ et al.", pubdate:"2026",
     added:"19.09.2026",
-    title:"Doppelspitze in Pflegeheimen: Neue Führungsstruktur verbessert Rollen und Zufriedenheit",
-    sum:"Australische Implementierungsstudie eines Dyad-Leadership-Modells (klinische und administrative Führung gemeinsam) in drei Altenheimen mit Vor-Nachher-Datenerhebung über 6 Monate.",
-    result:"Nach 6 Monaten: Verbesserte Rollenklarheit, Karriereperspektiven und Wohlbefindung (Interviews). Zufriedenheit mit Kommunikation und Versorgungsqualität stieg. Hospitalisierungen, Vorfälle und Klingel-Reaktionszeiten zeigten keine signifikanten Veränderungen. Einige klinische Mitarbeitende sahen Risiken für Karriereentwicklung.",
-    transfer:"Australien, aber Management-Modelle für Langzeitpflege sind teilweise übertragbar"
+    title:"Psychisches Wohlbefinden und Zugehörigkeitsgefühl schützen Pflegende vor stiller Kündigung",
+    sum:"Dreiwellen-Befragung von 997 Pflegefachpersonen (multigenerational) über die Mechanismen, über die psychisches Wohlbefinden durch Person-Gruppen-Passung (Person-Group Fit) mit stiller Kündigung verbunden ist (Einschränkung auf Minimum-Leistung im Job).",
+    result:"Psychisches Wohlbefinden wirkte direkt und indirekt (über Person-Gruppen-Passung) negativ auf stille Kündigung. Generationelle Unterschiede in dieser indirekten Wirkung waren nicht signifikant (Index der moderierten Mediation nicht signifikant). Effektgrößen waren moderat; Effekte sollten vorsichtig interpretiert werden.",
+    transfer:"Taiwan (Datengrundlage) – anderes Kontextsystem; aber Befund zu Wellbeing-Messung und Engagement-Problematik relevant"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1577,7 +1586,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "20.09.2026";
+const NEWS_STAND = "21.09.2026";
 const NEWS = [
   {titel:"Digitaler Zwilling für Pflegeheim: Projekt der Universitätsmedizin Oldenburg", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/digitaler-zwilling-fuer-pflegeheim-projekt-der-universitaetsmedizin-oldenburg/"},
   {titel:"Pflegereform: Infektionsschutz ist keine Verhandlungsmasse", datum:"2026-08-31", url:"https://www.monitor-versorgungsforschung.de/news/pflegereform-infektionsschutz-ist-keine-verhandlungsmasse/"},
