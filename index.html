@@ -1906,62 +1906,17 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "16. Okt. 2026, 06:22 Uhr";
+const SNAP_DATE = "17. Okt. 2026, 06:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"BMC Prim Care", year:"2026", pmid:"42875741",
-    author:"Lagerin A et al.", pubdate:"09.10.2026",
-    added:"15.10.2026",
-    title:"Komplexe Multimorbidität in der Hausbetreuung: Was Gemeindeschwestern können und worum sie ringen",
-    sum:"Qualitative Studie mit 15 Gemeindeschwestern in fünf Primärversorgungszentren Stockholms zu ihren Erfahrungen in der Versorgung älterer Menschen mit multipler Chronizität und psychischen Erkrankungen.",
-    result:"Zentrale Erkenntnisse: Schwestern fühlen sich kompetent, komplexe Patienten als ganzheitliche Person zu sehen, und sind bereit, Verantwortung zu übernehmen – jedoch nur, wenn Zeit, Unterstützung und strukturelle Voraussetzungen gegeben sind. Vier Subthemen: Komplexität als kohärente Person verstehen; Kompetenz für Patientenbedürfnisse; Primärversorgung sagt nicht nein, findet aber Lösungslücken; DN-Kompetenzen müssen sichtbar, definiert und begrenzt sein.",
-    transfer:"Schweden, ähnliche Primärversorgungsstruktur und Versicherungssystem"
-  },
-  {
-    journal:"Int J Geriatr Psychiatry", year:"2026", pmid:"42878126",
-    author:"Tasseron-Dries PEM et al.", pubdate:"Okt. 2026",
-    added:"15.10.2026",
-    title:"Herausforderndes Verhalten und Schmerz in Heimen: Multidisziplinäre Methode mit Angehörigen wirksam",
-    sum:"Niederländische Studie zur Wirkung der Methode STA OP! mit Familie auf schwieriges Verhalten und Schmerz bei demenzkranken Heimbewohnern in 10 Stationen mit 77 Bewohnern und ihren Angehörigen.",
-    result:"Schwieriges Verhalten sank signifikant nach 3 Monaten (standardisierter Koeffizient -0,2; 95%-KI -0,3 bis -0,04) und nach 6 Monaten (-0,2; 95%-KI -0,3 bis -0,03). Beobachtete Schmerzen zeigten Reduktion nach 6 Monaten (-0,2; 95%-KI -0,3 bis -0,004). Emotionale Belastung des Pflegepersonals sank signifikant (3 Monate: -0,3; 95%-KI -0,4 bis -0,1). Keine Veränderungen in Lebensqualität, Medikamentengebrauch oder Angehörigenerfahrungen.",
-    transfer:"Niederlande, vergleichbares Pflegeheim-System und Versicherungsmodell"
-  },
-  {
-    journal:"Health Expect", year:"2026", pmid:"42878217",
-    author:"Powell C et al.", pubdate:"Okt. 2026",
-    added:"15.10.2026",
-    title:"Medikamentenselbstverwaltung bei Demenz: Co-Design-Intervention mit Angehörigen in England",
-    sum:"Qualitative Studie mit Experience-Based-Co-Design-Ansatz in Großbritannien zur Entwicklung einer psychosozialen Intervention (MAGNET) für die Medikamentenselbstverwaltung bei community-dweller mit leichter bis mittelschwerer Demenz und deren Angehörigen.",
-    result:"Co-designed-Intervention konzentriert sich auf fünf Prioritäten: Auswirkungen von Demenz auf Medikamentenorganisation; Medikamentenkenntnisse; verfügbare Hilfe; Personalisierung; Zukunftsplanung. Entwickelt: Leitfaden, Video, Erinnerungskarte für Person und Schulungs-/Implementierungsleitfaden für Fachkräfte mit Logik-Modell. Teilnehmer berichteten positive Erfahrungen: Rückgabe an Gemeinschaft, Lernen von und Unterstützung durch andere. Unmittelbare soziale Wirkung nachgewiesen.",
-    transfer:"Großbritannien, vergleichbares System mit Pflegekassen-Aspekten"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42877224",
-    author:"Serban S et al.", pubdate:"30.09.2026",
-    added:"15.10.2026",
-    title:"Frühzeichen für Verschlechterung bei demenzkranken Heimbewohnern: Prognosemodell mit IPOS-Dem",
-    sum:"Sekundäranalyse longitudinaler Daten aus einer Schweizer randomisierten kontrollierten Studie (stepped wedge) mit 222 Heimbewohnern mit Demenz zur Vorhersage rezidivierender Verschlechterung mittels monatlichen IPOS-Dem-Messungen.",
-    result:"Von 2.107 Vorhersageepisoden verschlechterten sich 535 (25,4%), 72 von 222 Bewohnern (32,4%) zeigten rezidivierende Verschlechterung. Höhere mittlere DEBI (Emotional/Behavioral Impact) erhöhte Rezidivrisiko (OR 2,655; 95%-KI 1,382–5,101; p=0,003), ebenso höheres Alter (OR 1,055 pro Jahr; 95%-KI 1,006–1,107; p=0,027). Modellperformance: AUC 0,754; Brier 0,179. Serielle IPOS-Dem-Monitoring bot verwertbare Indikatoren für Level und Trajektorie.",
-    transfer:"Schweiz, vergleichbares Pflegeheim-Versicherungssystem"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42876522",
-    author:"Andruškienė J et al.", pubdate:"30.09.2026",
-    added:"15.10.2026",
-    title:"Psychosoziale Arbeitsbedingungen und Gesundheit: Schwestern berichten mehr Wohlbefinden als Ärzte",
-    sum:"Litauische Querschnittstudie in einem tertiären Krankenhaus 2025 mit 497 Antworten (56% von 900) zu Zusammenhang psychosozialer Arbeitsbelastung mit salutogenem Wohlbefinden bei Schwestern (n=271) und Ärzten (n=226).",
-    result:"Schwestern berichteten signifikant höhere Werte als Ärzte: unterstützende Arbeitsbedingungen (77,6±17,7 vs. 69,7±20,0; p&lt;0,05), interne Arbeitserfahrung (81,1±14,4 vs. 77,8±15,2), Zeiterfahrung (76,1±20,9 vs. 59,6±23,6) und Wohlbefinden (SHIS: 74,1±19,2 vs. 62,7±17,2). Bei Schwestern assoziiert mit Wohlbefinden: interne Arbeitserfahrung (β=0,13; p=0,020), Zeiterfahrung (β=0,24; p&lt;0,001), Veränderungsprozess (β=0,43; p&lt;0,001). Modellgüte R²=0,512.",
-    transfer:"Litauen, europäische Arbeitsbedingungen im Krankenhaus, ähnliche Qualifikation"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42876669",
-    author:"Pietrzak M et al.", pubdate:"30.09.2026",
-    added:"15.10.2026",
-    title:"Psychische Gesundheit und ländliche Versorgung: Wissenslücken bei Haushaltsschwestern in Polen",
-    sum:"Querschnittstudie mit 207 Haushaltsschwestern in Polen (Feb–Mai 2026) zu Level und Determinanten psychischer Gesundheitskompetenz (mental health literacy) mittels Mental Health Literacy Scale.",
-    result:"Mediane normalisierte Gesamtpunkte: 70,43%. Niedrigste Scores: Wissen über Risikofaktoren und Ursachen sowie Wissen über professionelle Hilfe (je 66,67%). Höchste: Erkennung von Störungen und Wissen, wie man mentale Gesundheitsinformation sucht (je 75%). Unabhängig assoziiert mit höheren Scores: jüngeres Alter, Wohnort in der Stadt, Familie/Bekannte mit psychischer Störung, beruflicher Kontakt zu Menschen mit Störungen. Negative Assoziation mit Alter und Dienstdauer bei erfahrenen Schwestern.",
-    transfer:"Polen, europäisches Haushalts-Setting, ähnliche Primärversorgungsstruktur"
+    journal:"J Infect Public Health", year:"2026", pmid:"42815319",
+    author:"Jachowicz-Matczak E et al.", pubdate:"28.09.2026",
+    added:"30.09.2026",
+    title:"Infektionen in Pflegeheimen: Häufigkeit, Risikofaktoren und Antibiotikaverbrauch in Polen",
+    sum:"Prospektive Beobachtungsstudie über 20 Monate in fünf polnischen Pflegeheimen mit 250 Bewohnern zur Erfassung nosokomialer Infektionen.",
+    result:"194 healthcare-associated infections bei 137.537 Bewohnertagen (Inzidenz 1,41/1000 Bewohnertage); Atemwegsinfektionen am häufigsten (n=80 in 70 Patienten), Fallsterblichkeit gesamt 8,25 %, bei Atemwegsinfektionen 15,7 %. Antibiotikaverbrauch 10,70 Therapietage/1000 Bewohnertage. Atemwegsinfektionen assoziiert mit höherem Alter, Gebrechlichkeit und mangelnder Pneumokokkenimpfung.",
+    transfer:"Polen, vergleichbare Pflegeheim-Infrastruktur und Dokumentation"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1977,7 +1932,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "16.10.2026";
+const NEWS_STAND = "17.10.2026";
 const NEWS = [
   {titel:"Neuordnung der Pflegeversicherung: Kabinettsentwurf der Bundesregierung", datum:"2026-10-06", url:"https://www.monitor-versorgungsforschung.de/news/neuordnung-der-pflegeversicherung-kabinettsentwurf-der-bundesregierung/"},
   {titel:"Pflegereform im Kabinett: PKV warnt vor Aufweichung im Parlament", datum:"2026-09-30", url:"https://www.monitor-versorgungsforschung.de/news/pflegereform-im-kabinett-pkv-warnt-vor-aufweichung-im-parlament/"},
