@@ -1906,71 +1906,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "18. Okt. 2026, 06:22 Uhr";
+const SNAP_DATE = "19. Okt. 2026, 06:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Medicine (Baltimore)", year:"2026", pmid:"42888634",
-    author:"Nie H et al.", pubdate:"16.10.2026",
+    journal:"Int Nurs Rev", year:"2026", pmid:"42861839",
+    author:"Bohlender C et al.", pubdate:"Dez. 2026",
+    added:"12.10.2026",
+    title:"Advanced Nursing Practice in Europa: Regulierung und Grenzen der Aufgabenerweiterung",
+    sum:"Befragung von Regulatoren, Lehrenden und Berufsverbänden in WHO-Europaregion zu Stand und Rahmenbedingungen von erweiterten Pflegefunktionen in 32 Ländern.",
+    result:"Mehrheit europäischer Länder hat Advanced-Practice-Rollen; Tätigkeitsumfang variiert erheblich. Unabhängige Verschreibungsbefugnis in nur 4 Ländern etabliert. Reife der Rollen korrelierte mit staatlich gesteuerter oder gesetzlich verankerter Regulierung. Interessenvertreter befürworteten mehrheitlich regulatorische Intervention; empfohlen: Titel-, Qualifikations- und Kompetenznormierung sowie Regelung risikoreicher Funktionen (Diagnose, Verordnung).",
+    transfer:"32 europäische Länder mit heterogenen Rechtssystemen; Regulierungslücke ähnlich auch in Deutschland"
+  },
+  {
+    journal:"Clin Interv Aging", year:"2026", pmid:"42893253",
+    author:"Migovich M et al.", pubdate:"13.10.2026",
+    added:"18.10.2026",
+    title:"Soziale Teilhabe in Langzeitpflege: Roboter-VR-Interventionen bei kognitiven Einschränkungen",
+    sum:"Acht-Wochen-Studie mit 60 älteren Menschen mit kognitiven Beeinträchtigungen aus 23 Langzeiteinrichtungen (USA); 756 wiederholte Sitzungen mit sozialassistiven Robotern (hund-ähnlich, humanoid) gekoppelt mit VR, Messung Aufmerksamkeit und Sozialverhalten.",
+    result:"Aufmerksamkeit und Aktivitätshaltung blieben über wiederholte Exposition stabil positiv. Mensch-Mensch-Kommunikation (Mitbewohner, Fachpersonal) trat über beide Systeme auf; hund-ähnlicher Roboter führte zu mehr roboter-gerichteter Sprache, ohne Reduktion der Peer-Kommunikation. Baseline-Kognition assoziiert mit Aufmerksamkeit, nicht mit Einstellung. Roboter-Anthropomorphisierung bei Baseline korrelierte mit positiverer Engagement-Qualität.",
+    transfer:"USA, konzeptionell für Aktivierungsansätze in deutschen Heimen relevant, Feasibility-Befund unabhängig von Finanzierungssystem"
+  },
+  {
+    journal:"Nurs Open", year:"2026", pmid:"42888517",
+    author:"Mohammadi MM et al.", pubdate:"Okt. 2026",
     added:"17.10.2026",
-    title:"Strukturiertes Schmerzmanagement bei Terminalpatienten: schneller Einsatz, bessere Outcomes",
-    sum:"Retrospektive Kohortenstudie bei 724 Terminalkrebspatienten in der Notaufnahme zur Assoziation zwischen zeitgerechtem strukturiertem Schmerzmanagement und Schmerzlinderung.",
-    result:"58,2% der Patienten erreichten effektive Schmerzlinderung (≥2-Punkte-Reduktion innerhalb 1 Stunde). Unabhängige Prädiktoren: Schmerzassessment innerhalb 30 Minuten (OR 1,84), Analgetikagabe innerhalb 30 Minuten (OR 2,24), Opioidnutzung (OR 1,52), dokumentierte Reassessment (OR 1,69). Strukturierte Gruppe (n=286): 75,9% vs. 46,6% Schmerzlinderung, schnellerer Eintritt (29,6 ± 11,3 vs. 52,7 ± 15,9 Min.), kürzerer Aufenthalt (3,4 ± 1,1 vs. 4,7 ± 1,4 Std.), weniger Revisiten in 72h (7,3% vs. 21,0%, p&lt;0,001).",
-    transfer:"China – Dokumentationspraxis übertragbar, Palliativversorgung relevant"
+    title:"Instrument zur Messung von Pflegeleistungs-Rationierung: Entwicklung und Validierung",
+    sum:"Qualitative Vorarbeit (15 Pflegende, Inhaltsanalyse) und anschließende Validierungsstudie mit 220 klinischen Pflegenden zur Entwicklung eines Messinstruments für geleistete Pflegeoptimierungen und -ausfälle.",
+    result:"Finales Instrument mit 12 Items, ein Faktor, erklärt 71,97% Varianz. Exploratory Graph Analysis zeigte 100%ige Itemstabilität über 500 Bootstrap-Iterationen, Mokken H=0,762. Interne Konsistenz Cronbachs α=0,953, Test-Retest ICC=0,969 (95% KI: 0,953–0,985). Monte-Carlo-Simulation (1000 Wiederholungen) bestätigte hohe strukturelle Replizierbarkeit.",
+    transfer:"Iran; Instrument-Validierung für Versorgungspraxis relevant, methodische Übertragbarkeit auf deutsche Kontexte"
   },
   {
-    journal:"Orphanet J Rare Dis", year:"2026", pmid:"42881418",
-    author:"Brandt M et al.", pubdate:"12.10.2026",
-    added:"16.10.2026",
-    title:"Belastung pflegender Eltern seltener Erkrankungen: unerwartete sozioökonomische Befunde",
-    sum:"Querschnittsstudie bei 123 deutschen Eltern (84% weiblich) von Kindern mit seltenen Erkrankungen zur Erfassung von Pflegebelastung und ihrer Prädiktoren.",
-    result:"23% berichteten depressive Symptome (Borderline/klinisch relevant); 77% mindestens eine unerfüllte Unterstützungsneed; in Subgruppe mit Pflegebedarf: 24% hohe Pflegebelastung. Nach Adjustierung: Gruppe mit vs. ohne Pflegebedarf zeigte keine signifikanten Unterschiede in depressiven Symptomen, unerfüllten Needs oder Zufriedenheit (aber mittlere Effektstärken). Unerwartete Assoziation: höherer sozioökonomischer Status → höhere Pflegebelastung. Faktoren mit höchsten Assoziationen: niedrigere pflegebezogene Lebensqualität, höherer SES, elterliche depressive Symptome, niedrigere Zufriedenheit.",
-    transfer:"Deutschland – deutsches Sample, vergleichbare Sozialstruktur, familiäre Pflege zentral"
+    journal:"Age Ageing", year:"2026", pmid:"42891966",
+    author:"Kravvariti E et al.", pubdate:"03.08.2026",
+    added:"18.10.2026",
+    title:"Ungedeckte Fortbildungsbedarfe in der Altenpflege: Pan-europäische Befragung ambulanter und häuslicher Dienste",
+    sum:"Die Studie erfasste bei 2380 Fachkräften aus 41 europäischen Ländern, welche Wissenslücken sie in der geriatrischen Versorgung selbst wahrnehmen. Bewertet wurden 33 Themenbereiche anhand einer Skala aus Relevanz, Interesse und subjektivem Wissen.",
+    result:"Größte Wissenslücken (höchste z-Scores) bestanden in: umfassender geriatrischer Erfassung, Widerstandsfähigkeit, chronischem Schmerz, Verhaltenssymptomen bei Demenz, Depression, Gebrechlichkeit und kognitiven Screenings. Alle Fachgruppen zeigten konsistent höhere Bewertung von Relevanz und Interesse als Selbsteinschätzung des Wissens. Berufsspezifische Prioritäten: Kommunikation und Patientenverfügungen (Pflege/Logopädie), Polypharmazie (Ärzte/Apotheker), Ernährung (Diätassistenten), psychische Gesundheit (Psychologen).",
+    transfer:"41 europäische Länder, vergleichbare Versorgungskontexte, direkt auf deutsche Praxis übertragbar"
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42890603",
-    author:"Hu A et al.", pubdate:"02.10.2026",
+    journal:"BMC Public Health", year:"2026", pmid:"42870243",
+    author:"Tarriño-Concejero L et al.", pubdate:"28.07.2026",
+    added:"14.10.2026",
+    title:"Geschlechtsbasierte Gewalt in Beziehungen: Wissenslücken in der Pflegeausbildung Südspanien",
+    sum:"Qualitative Studie mit 24 Pflegestudierenden (18–24 Jahre) zu Erkennung und Verständnis von Partnergewalt sowie Einschätzung ihrer Ausbildungsvorbereitung.",
+    result:"Studierende erkannten Kontrollverhalten und psychologische Misshandlung als häufigste Manifestationen. Identifizierten Missbrauch von Sozialen Medien sowie Alkohol/Drogen als Intensivierungsfaktoren. Berichteten emotionale und körperliche Folgen (Angst, Stress, somatische Symptome). Insgesamt bewerteten 24/24 ihre Ausbildung zu Partnergewalt als oberflächlich, praxisleitfaden-arm und zur Entwicklung kritischer Kompetenzen unzureichend.",
+    transfer:"Spanien, europäische Curriculum-Standards, Erkenntnisse zu Ausbildungslücken auf Deutschland übertragbar"
+  },
+  {
+    journal:"J Nurs Manag", year:"2026", pmid:"42891534",
+    author:"Mo N et al.", pubdate:"2026",
     added:"17.10.2026",
-    title:"Sekundäres Trauma und Wachstum bei Pflegefachpersonen: drei psychische Profile",
-    sum:"Querschnittsstudie bei 496 chinesischen klinischen Pflegefachpersonen zur Identifikation unterschiedlicher Profile sekundären Traumas und posttraumatischen Wachstums und deren Einflussfaktoren.",
-    result:"Drei Profile identifiziert: Niedrig-Antwort-Profil (34,3%), Hochrisiko-Profil (42,3%), Positiv-Wachstums-Profil (23,4%). Selbstbeurteilter Gesundheitsstatus, Arbeitszufriedenheit, wahrgenommenes Burnout, administrative Position, Persönlichkeitsmerkmale und soziale Unterstützung waren signifikant mit Profilzugehörigkeit assoziiert (p &lt; 0,05). Zeigt heterogene psychische Reaktionsmuster auf Belastung.",
-    transfer:"China – Kontext strukturelle Unterschiede; psychisches Belastungsprofil prinzipiell übertragbar"
-  },
-  {
-    journal:"BMC Public Health", year:"2026", pmid:"42827239",
-    author:"Amling L et al.", pubdate:"02.10.2026",
-    added:"02.10.2026",
-    title:"Krisen-Resilienz im deutschen Gesundheitswesen: Bereitschaft von Nachwuchspflegekräften",
-    sum:"Querschnittsstudie bei 514 deutschen Studierenden (Medizin, Pflege, Rettungsdienst) zur Assoziationen zwischen Vorbereitung, Bewusstsein, Eigenverantwortung und Bereitschaft zur Krisenbewältigung.",
-    result:"48,8% hielten NATO-Szenario bis 2030 für wahrscheinlich; 83,3% erwarteten negative Auswirkungen auf deutsches Gesundheitssystem; 94,5% sahen Gesundheitssystem als schlecht vorbereitet; individuelle Vorbereitung niedrig (Median 3 auf 0–12-Skala); in multivariater Analyse: höher wahrgenommene institutionelle Vorbereitung (p&lt;0,01), freiwilliges Engagement (p&lt;0,01) und Bewusstsein (p&lt;0,01) signifikant mit höherer Bereitschaft assoziiert.",
-    transfer:"Deutschland – direkt anwendbar, deutsche Studiendaten, Nachwuchsproblem zentral"
-  },
-  {
-    journal:"Nurs Open", year:"2026", pmid:"42888842",
-    author:"Konlan KD et al.", pubdate:"Okt. 2026",
-    added:"17.10.2026",
-    title:"Mentoring neu rekrutierter Intensivpfleger: Erfahrungen aus Ghana",
-    sum:"Qualitative explorative Studie bei 12 neu rekrutierten Intensivpflegern in Accra zur Identifikation ihrer Erfahrungen und Bewältigungsstrategien in ressourcenlimitiertem Setting.",
-    result:"Kernthemen: Schichtkonflikte, fehlende Mentoren, unsupportive Lernumgebung; Bewältigungsstrategien: Selbstlerninitiative, Forderung nach strukturierten Orientierungsprogrammen, regelmäßige Evaluationen, Peer-Support-Netzwerke. Befunde zeigen: Ineffektives Mentoring durch Abwesenheit institutioneller Mentorship-Protokolle; strukturierte Orientation, Peer-Mentoring und geschützte Mentorship-Zeit als Lösungen identifiziert.",
-    transfer:"Ghana – ressourcenbegrenzt, aber Mentoring-Gap und Bewältigungsstrategien prinzipiell relevant"
-  },
-  {
-    journal:"Nurs Open", year:"2026", pmid:"42888519",
-    author:"Harris MA et al.", pubdate:"Okt. 2026",
-    added:"17.10.2026",
-    title:"Moralischer Stress bei Neueinsteigern: Zusammenhang mit Kündigungsabsicht",
-    sum:"Querschnittsstudie bei 203 neu lizenzierten Pflegefachpersonen (194 RN, 9 LPN) in US-amerikanischer Akutversorgung zur Assoziation zwischen moralischem Stress und Kündigungsabsicht.",
-    result:"Moralischer Stress signifikant mit Kündigungsabsicht assoziiert (p&lt;0,05), kontrolliert für Abteilung und Lizenztyp. Höhere Scores für moralischen Stress und Kündigungsabsicht in Medical-Surgical/Stepdown-Abteilungen als in Critical Care/ED und Procedural/Surgical Einheiten. Befunde zeigen: Moralischer Stress ist bedeutsamer Faktor für Fluktuationsabsicht bei Neueinsteigern; departmentspezifische Unterschiede deuten auf Bedarf für Abteilungsinterventionen hin.",
-    transfer:"USA – Konzept übertragbar; deutsche Retention-Problematik bei Neueinsteigern ähnlich"
-  },
-  {
-    journal:"J Nurs Manag", year:"2026", pmid:"42878027",
-    author:"Rodrigues D et al.", pubdate:"2026",
-    added:"15.10.2026",
-    title:"Haemostasis-Protokolle in der Interventionskardiologie: Supervision und Adhärenz bei Pflegefachpersonen",
-    sum:"Querschnittsstudie bei 96 portugiesischen Fachkräften in fünf Krankenhäusern zur Einhaltung von Hämostase-Protokollen nach radialer Koronarangiographie und zur klinischen Supervision.",
-    result:"Nur 6,3% zeigten volle Adhärenz zum TR-Band-Protokoll, 44,2% teilweise Adhärenz; erhebliche Variabilität bei Nachsorge (Fahrverbot 24 h: 44,8 % vs. 48 h: 47,9 %); 88,5% der Pflegefachpersonen hatten keine formale Supervisionsschulung; Supervisoren nutzten vorwiegend Erklärung und Demonstration (87,3%), weniger Feedback (45,1%) und Diskussion (43,1%). Zeigt großes Defizit zwischen Protokoll und Praxis sowie in formativer Supervision.",
-    transfer:"Portugal – vergleichbare Pflegefachausbildung, kardiovaskuläre Pflegepraxis übertragbar"
+    title:"Burnout und Berufungserleben: Drei Pflegeprofil-Typen und ihre Folgen für unterlassene Pflege",
+    sum:"Latente-Profil-Analyse bei 524 Pflegenden aus China identifizierte Subgruppen unterschiedlichen Burnouts und Berufungsverständnisses und deren Zusammenhang mit selbstberichteter unterlassener Pflege sowie Arbeitsumgebung.",
+    result:"Drei Profile: «niedriger Burnout–hohes Berufungserleben» (49,6%), «reduzierte Leistungszufriedenheit» (37,8%), «hoher Burnout–niedriges Berufungserleben» (12,6%). Die Gruppe mit hohem Burnout berichtete höchste Quote unterlassener Pflege, gefolgt von reduzierter Leistungszufriedenheit. Alter, Qualifikation, beruflicher Status und Arbeitsumgebung waren signifikant mit Profilzugehörigkeit assoziiert.",
+    transfer:"China, ähnliche Krankenhaus- und Organisationsstrukturen, Personalbemessungsfragen relevant auch für Deutschland"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1986,7 +1977,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "18.10.2026";
+const NEWS_STAND = "19.10.2026";
 const NEWS = [
   {titel:"Neuordnung der Pflegeversicherung: Kabinettsentwurf der Bundesregierung", datum:"2026-10-06", url:"https://www.monitor-versorgungsforschung.de/news/neuordnung-der-pflegeversicherung-kabinettsentwurf-der-bundesregierung/"},
   {titel:"Pflegereform im Kabinett: PKV warnt vor Aufweichung im Parlament", datum:"2026-09-30", url:"https://www.monitor-versorgungsforschung.de/news/pflegereform-im-kabinett-pkv-warnt-vor-aufweichung-im-parlament/"},
