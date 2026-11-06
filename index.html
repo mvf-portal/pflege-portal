@@ -2201,77 +2201,68 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "5. Nov. 2026, 14:24 Uhr";
+const SNAP_DATE = "6. Nov. 2026, 05:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Int Nurs Rev", year:"2026", pmid:"42980526",
-    author:"Zhan S et al.", pubdate:"Dez. 2026",
+    journal:"PLoS One", year:"2026", pmid:"42986856",
+    author:"Yakob T et al.", pubdate:"05.11.2026",
+    added:"05.11.2026",
+    title:"Blutdrucksenkung durch pflegegeleitet Interventionen in Entwicklungsländern: systematische Übersicht",
+    sum:"Systematische Übersicht von 11 Studien (n=19.005 Patienten) zur Wirkung pflegegeleitet Interventionen (meist multikomponental) auf Halteqoute, Medikamentenadhärenz und Blutdruck bei Hypertonie-Patienten in primärer Versorgung in Ländern mit geringeren Mitteln (Afrika, Asien).",
+    result:"Systolischer Blutdruck sank um &gt;10 mmHg in den meisten Studien; diastolischer um -1,8 bis -20,6 mmHg. Halteqooten variierten stark (12,6-96,5% Termine, 27,0-62,8% routinemäßig, 83,8-97,2% Studienfollowup). Adhärenzeffekte waren inkonsistent. Pflegegeleitet Interventionen senken Blutdruck, aber Halteqooten sind heterogen.",
+    transfer:"Länder mit geringeren Mitteln, vergleichbare Ausgangsbedingungen für Deutschland bei Personalbemessung relevant"
+  },
+  {
+    journal:"BMC Pediatr", year:"2026", pmid:"42983666",
+    author:"Hlebec V et al.", pubdate:"07.08.2026",
+    added:"05.11.2026",
+    title:"Junge Pflegende und Kinder als Angehörige: Wie Europa ihre Partizipation regelt",
+    sum:"Rapid-Realist-Review zu Partizipationsmechanismen für junge Pflegende und Kinder als nächste Angehörige in europäischen Systemen (EU, Belgien, Bulgarien, Italien, Slowenien, Schweden).",
+    result:"Systemische und strukturelle Barrieren verhindern sinnvolle Partizipation: Vulnerable Kinder sind weder anerkannt noch konsistent unterstützt. Erfolgreiche Mechanismen erfordern vertraute, empathische Erwachsene und diverse Partizipationsmodi. Umsetzung ist inkonsistent und stark von lokalen Ressourcen abhängig.",
+    transfer:"Mehrere europäische Länder, Versorgungssysteme mit Langzeitpflege"
+  },
+  {
+    journal:"BMC Health Serv Res", year:"2026", pmid:"42983742",
+    author:"Stien T et al.", pubdate:"06.08.2026",
+    added:"05.11.2026",
+    title:"Wie Pflegekräfte die Führung von examinierten Pflegefachpersonen in der Altenpflege erleben",
+    sum:"Qualitative Studie mit 13 Pflegekräften in drei norwegischen Kommunen zur Erfahrung von Führungsverhalten examinierter Pflegefachpersonen in der Betreuung älterer Menschen im häuslichen Kontext.",
+    result:"Pflegekräfte erlebten Führung als personenabhängig: Sie war teils unterstützend und qualitätssichernd, teils abwesend, unklar oder selbstbezogen. Examinierte Pflegefachpersonen unterschätzten teilweise die Kompetenz ihrer Mitarbeitenden oder übersahen ihre Unsicherheit. Die Studie zeigt: Gut definierte, strukturell verankerte Führung würde die personenabhängigen Aspekte reduzieren.",
+    transfer:"Norwegen, vergleichbare kommunale Altenpflegestruktur mit Skill Mix"
+  },
+  {
+    journal:"Orphanet J Rare Dis", year:"2026", pmid:"42983445",
+    author:"Hennermann JB et al.", pubdate:"22.07.2026",
     added:"04.11.2026",
-    title:"Moralisches Leiden in Hospizen: Welche Faktoren Pflegekräfte belasten – China",
-    sum:"Mixed-Methods-Studie mit 295 Hospiz-Pflegekräften (Fragebogen) und 15 qualitativen Interviews in China zu moralischem Leiden und den Kontextfaktoren (individuell, relational, organisational, soziokulturell).",
-    result:"Moralisches Leiden assoziiert mit niedrigerer moralischer Resilience, schlechterer ethischer Klimawahrnehmung, höherem Work-Family-Conflict. Qualitative Daten: Pflegekräfte berichten Spannungen zwischen Lebensverlängerung und Palliation, Familienentscheidungen. Multilevel-Faktoren relevant.",
-    transfer:"China, aber Konzept moralisches Leiden und Resilience kulturübergreifend; Befund zur Organisationsklima-Wirkung übertragbar"
+    title:"Lebensqualität pflegender Angehöriger bei seltener Erkrankung: was Behandlung bewirkt",
+    sum:"Internationale Online-Befragung von 43 Angehörigen (16 Länder) zur Lebensqualität über 5 Jahre bei unterschiedlichen Behandlungsansätzen (unbehandelt, Stammzelltransplantation, Enzymersatztherapie).",
+    result:"Angehörige von unbehandelten Patienten zeigten Verschlechterung in allen Lebensbereichen (physisch -0,7±0,9, mental +1,4±1,9, sozial +1,1±1,4, Beziehungen +1,3±1,7 auf VAS). Angehörige unter Enzymersatztherapie oder Transplantation waren stabil oder verbessert (Änderungen zwischen -1,0 und +0,1). Behandlung gemindert Belastung pflegender Angehöriger.",
+    transfer:"International, kausal nicht bewiesen wegen kleiner Subgruppen"
   },
   {
-    journal:"PLoS One", year:"2026", pmid:"42981356",
-    author:"Albers CAW et al.", pubdate:"04.11.2026",
-    added:"04.11.2026",
-    title:"Psychotropika in Pflegeheimen: Wie Gesetze und Richtlinien den Verbrauch senken",
-    sum:"Analyse der Psychopharmaka-Verordnungen in niederländischen Pflegeheimen 2016-2023 und deren Zusammenhang mit regulatorischen Änderungen (Gesetz, neue Richtlinien).",
-    result:"Prävalenz sank von 48,3 % (2016) auf 42,7 % (2023); nach Einführung des Care-and-Coercion-Act und der Dementia-Care-Standard (Q2 2020) beschleunigte sich der Rückgang signifikant. Regeländerungen zeigen messbaren Effekt auf Verschreibungspraxis.",
-    transfer:"Niederlande, vergleichbares Versicherungssystem; Befund zur Regelwirkung übertragbar"
-  },
-  {
-    journal:"Trials", year:"2026", pmid:"42977962",
-    author:"Hendlmeier I et al.", pubdate:"03.11.2026",
-    added:"03.11.2026",
-    title:"Dyadic Problem-Solving in der Pflegeberatung: Interventionsstudie mit Angehörigen und Versicherten",
-    sum:"Deutschlandweit Evaluierung einer Beratungsintervention für pflegende Angehörige, die gemeinsam mit Versicherten problem-orientiert Pflegesituationen klären; geplant: Qualität der informellen Pflege (QiC), Selbstwirksamkeit, depressive Symptome nach 3 Monaten.",
-    result:"Studienprotokoll; Rekrutierung abgeschlossen. Primäres Outcome: Veränderung der Pflegequalität (QiC) vom Baseline zu Monat 3. Sekundär: Selbstwirksamkeit, depressive Symptome, positive Aspekte der Pflege.",
-    transfer:"Deutschland, eigene Langzeitversicherung; deutsche Pflegeberatungsstellen und -versicherte direkt adressiert"
-  },
-  {
-    journal:"BMC Palliat Care", year:"2026", pmid:"42977924",
-    author:"Regelmann EM et al.", pubdate:"30.10.2026",
-    added:"03.11.2026",
-    title:"Pflegerische Autonomie in der Spezialisierten Palliativversorgung: Bedingungen und Grenzen",
-    sum:"Qualitative Interviews mit 20 Pflegefachpersonen in der ambulanten Spezialisierten Palliativversorgung (Deutschland) über ihre Erfahrungen mit erweiterten Verantwortungen.",
-    result:"Kernphänomen: Autonomie entsteht in vertrauensvollen interprofessionellen Beziehungen. Notwendige Bedingungen: Selbstvertrauen, Kollegenvertrauen, ärztliche Anerkennung, Teamstrukturen. Grenzen: Stressfaktoren, ambivalente Belastungen trotz Empowerment.",
-    transfer:"Deutschland, eigene Daten; direkt auf deutsche Palliativdienste übertragbar"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42978658",
-    author:"Yu M", pubdate:"20.10.2026",
-    added:"04.11.2026",
-    title:"Lohnunzufriedenheit und Pflegekräfte-Fluktuation: Pfade über Ungerechtigkeit und Burnout",
-    sum:"Strukturgleichungsmodell mit 792 Pflegekräften aus südkoreanischen Krankenhäusern: Zusammenhang zwischen wahrgenommener Lohnlücke (14 % unter angemessen) und Kündigungsabsicht über Effort-Reward-Imbalance, wahrgenommene Gerechtigkeit, Burnout und Commitment.",
-    result:"Mittlere Lohnlückenquote 1,14. Lohnunzufriedenheit zeigt keinen direkten, aber signifikanten indirekten Effekt auf Kündigungsabsicht (β = 0,226, p = 0,001). Burnout stärkster direkter Prädiktor (β = 0,667). Modell erklärt 76,2 % Varianz. Gerechtigkeit und Burnout sind Schlüsselmediatoren.",
-    transfer:"Südkorea, aber Mechanismus (Gerechtigkeit, Burnout) universal; übertragbar auf deutsche Entgeltsysteme und Gerechtigkeitswahrnehmung"
-  },
-  {
-    journal:"Soc Sci Med", year:"2026", pmid:"42860080",
-    author:"Li LZ et al.", pubdate:"10.10.2026",
-    added:"11.10.2026",
-    title:"Schichtarbeit und Wochenendarbeit: Was Belastung und Fluktuation bei Pflegekräften treibt",
-    sum:"Längsschnittstudie 2012–2024 (UK Household Longitudinal Study) mit 1.476–1.492 Pflegekräften über Zusammenhang von Arbeitszeitmuster und jobspezifischer Angst/Depression sowie Kündigungsabsicht.",
-    result:"Pflegekräfte arbeiten bereinigt 2,0 Stunden mehr pro Woche (95%-KI 1,54–2,46), haben 3,82-fach höhere Chancen für Schichtarbeit (95%-KI 3,43–4,25), höhere Wochenendarbeitsquoten. Längere Stunden, Schichtarbeit und Wochenendarbeit sind mit höherer Angst/Depression assoziiert; Schichtarbeit mit Kündigungsabsicht (OR 1,46; 95%-KI 1,21–1,78).",
-    transfer:"UK-Daten, aber Arbeitsbelastungslogik universal; Befund zu Schichteffekt auf Verbleib übertragbar"
+    journal:"Int J Community Based Nurs Midwifery", year:"2026", pmid:"42985169",
+    author:"Nasiri F et al.", pubdate:"01.04.2026",
+    added:"05.11.2026",
+    title:"Kontinuierliches Team-Hebammenmodell in der Schwangerschaftsbetreuung: Erlebnis von Frauen und Hebammen",
+    sum:"Qualitative Inhaltsanalyse mit 16 Frauen und 12 Hebammen in drei iranischen Gesundheitszentren zur Erfahrung mit integriertem kontinuierlichem Team-Hebammenmodell (ICTMC) in Schwangerschaft und Wochenbett.",
+    result:"Hebammen und Frauen beschrieben das Modell als fördernd für umfassende, kontinuierliche Versorgung von Schwangerschaft bis Wochenbett. Drei Kategorien entstanden: exzellenzorientierte Hebammenpflege, Brückenfunktion Schwangerschaft-Wochenbett, positive Geburtserfahrung. ICTMC kann Standards der Hebammenpflege neu definieren.",
+    transfer:"Iran, andere Ausgangslage; Konzept teambasierter Kontinuität übertragbar"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
 
 // Offene Foerderausschreibungen zum Thema — taeglich von scripts/radar_hinweis.py
 // === RADAR-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const RADAR_STAND = "02.11.2026";
+const RADAR_STAND = "05.11.2026";
 const RADAR_URL = "https://wissen.m-vf.de/ausschreibungen.html#pflege";
 const RADAR_EIGENES = 3;
 const RADAR_ZUHAUSE = false;
-const RADAR_FRISTEN = [["2026-12-31", "2027-01-07", "2027-01-07", "2027-01-07"], [], ["2027-01-07"], [], [], [], [], ["2026-11-18"], [], [], [], ["2027-01-07", "2027-01-26", "2027-01-26"], ["2027-01-07", "2027-01-07", "2027-01-07", "2027-01-11", "2027-01-25", "2026-11-18", "2026-11-18", "2026-11-06"], ["2026-11-19", "2027-02-03", "2027-02-03"], ["2027-01-27", "2026-11-09"]];
+const RADAR_FRISTEN = [["2026-12-31", "2027-01-07"], [], ["2027-01-07"], [], ["2026-11-19"], [], [], ["2026-11-18"], [], [], [], ["2027-01-07", "2027-01-26", "2027-01-26"], ["2027-01-07", "2027-01-07", "2027-01-07", "2027-01-11", "2027-01-25", "2027-02-11", "2026-11-18", "2026-11-18"], ["2026-11-19"], ["2027-01-27", "2026-11-09"]];
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "04.11.2026";
+const ZUL_STAND = "05.11.2026";
 const ZUL_EIGENE = 0;
 const ZUL_GUTACHTEN = 0;
 const ZUL_ZULASSUNG = 0;
@@ -2281,7 +2272,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "05.11.2026";
+const NEWS_STAND = "06.11.2026";
 const NEWS = [
   {titel:"Neuordnung der Pflegeversicherung: Kabinettsentwurf der Bundesregierung", datum:"2026-10-06", url:"https://www.monitor-versorgungsforschung.de/news/neuordnung-der-pflegeversicherung-kabinettsentwurf-der-bundesregierung/"},
   {titel:"Pflegereform im Kabinett: PKV warnt vor Aufweichung im Parlament", datum:"2026-09-30", url:"https://www.monitor-versorgungsforschung.de/news/pflegereform-im-kabinett-pkv-warnt-vor-aufweichung-im-parlament/"},

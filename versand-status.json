@@ -1,12 +1,17 @@
 {
  "hub": "Knowledge-Hub Pflege & Langzeitversorgung",
  "domain": "pflege.m-vf.de",
- "datum": "2026-11-05",
+ "datum": "2026-11-06",
  "stand": "terminiert",
- "titel": "MVF Pflege-Newsletter 05.11.2026",
- "betreff": "Neueste Studien - Pflege und Langzeitversorgung – 5. November 2026",
- "anzahl": 6,
+ "titel": "MVF Pflege-Newsletter 06.11.2026",
+ "betreff": "Neueste Studien - Pflege und Langzeitversorgung – 5. November 2026 bis 6. November 2026",
+ "anzahl": 11,
  "pmids": [
+  "42986856",
+  "42985169",
+  "42983742",
+  "42983666",
+  "42983445",
   "42981356",
   "42980526",
   "42978658",
@@ -14,18 +19,18 @@
   "42977924",
   "42860080"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099725",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099746",
  "termin_utc": "2026-11-06T09:00:00+00:00",
  "empfaenger": 14,
- "listengroesse": 5878,
+ "listengroesse": 5879,
  "beanstandungen": [],
  "aussortiert": [],
  "pool": {
   "geholt": 220,
   "bekannt": 90,
-  "pool": 52,
-  "gewaehlt": 6,
-  "neu": 6
+  "pool": 51,
+  "gewaehlt": 5,
+  "neu": 5
  },
  "rubriken": {
   "news": "8bb4e9f2c6c0a34d"
