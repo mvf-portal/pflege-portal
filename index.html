@@ -2145,9 +2145,11 @@ const CATS = [
   {id:"qualitaet", h:38, num:"07", name:"Pflegequalität & Einrichtungsvergleich",
    hinweis:"Diese Quellen führen zu einzelnen Einrichtungen und ihren Prüfergebnissen, nicht zu Studien. Ein Suchbegriff findet hier ein Pflegeheim mit seiner Qualitätsdarstellung — nützlich für die Recherche am konkreten Fall, nicht für die Evidenzlage."},
   {id:"praxis", h:96, num:"08", name:"Demenz, Palliativ & pflegende Angehörige"},
-  {id:"openaccess", h:150, num:"09", name:"Open Access & Discovery"},
-  {id:"register", h:212, num:"10", name:"Studienregister & Preprints"},
-  {id:"volltext", h:100, num:"11", name:"Volltext beschaffen"},
+  {id:"zahn", h:172, num:"09", name:"Mundgesundheit bei Pflegebedürftigen",
+   hinweis:"Mundgesundheit ist in der Langzeitversorgung ein Versorgungsproblem und kein zahnmedizinisches Detail: Sie hängt an fremder Hilfe bei der täglichen Pflege, am Zugang zur aufsuchenden Behandlung und an den Verträgen nach § 119b SGB V. Diese Quellen führen zu den Zahlen, den Leitlinien und den Regeln dazu."},
+  {id:"openaccess", h:150, num:"10", name:"Open Access & Discovery"},
+  {id:"register", h:212, num:"11", name:"Studienregister & Preprints"},
+  {id:"volltext", h:100, num:"12", name:"Volltext beschaffen"},
 ];
 // === CATS-BLOCK-ENDE ===
 
@@ -2263,6 +2265,15 @@ const DB = [
   {c:"volltext", n:"Open Access Button", d:"Sucht frei zugängliche Fassungen und fordert sie bei Bedarf direkt beim Autor an. DOI oder Titel nach dem Öffnen eingeben.", t:"portal", u:"https://openaccessbutton.org/"},
   {c:"volltext", n:"subito", de:1, d:"Direktlieferdienst wissenschaftlicher Bibliotheken — Aufsätze und Bücher kostenpflichtig, aber schnell und lizenzkonform.", t:"live", u:"https://search.subito-doc.de/vufind/Search/Results?lookfor=%s&type=AllFields", b:1},
   {c:"volltext", n:"Fernleihe (K10plus)", de:1, d:"Verbundkatalog mit Bestandsnachweis: zeigt, welche Bibliothek den Titel führt — Bestellung über die eigene Bibliothek.", t:"live", u:"https://opac.k10plus.de/DB=2.299/CMD?ACT=SRCHA&IKT=1016&SRT=YOP&TRM=%s"},
+  // Mundgesundheit bei Pflegebedürftigen
+  {c:"zahn", n:"Bundeszahnärztekammer (BZÄK)", de:1, d:"Berufsvertretung der Zahnärzteschaft: Konzept „Mundgesundheit trotz Handicap und hohem Alter“, Stellungnahmen, Statistisches Jahrbuch.", t:"portal", u:"https://www.bzaek.de/"},
+  {c:"zahn", n:"Kassenzahnärztliche Bundesvereinigung (KZBV)", de:1, d:"Vertragszahnärztliche Versorgung: Jahrbuch mit Abrechnungsdaten, die aufsuchende Betreuung in Pflegeheimen, Verträge nach § 119b SGB V.", t:"live", u:"https://www.kzbv.de/?s=%s"},
+  {c:"zahn", n:"Institut der Deutschen Zahnärzte (IDZ)", de:1, d:"Herausgeber der Deutschen Mundgesundheitsstudien (DMS): die Referenzdaten zu Karies, Parodontitis und Zahnverlust nach Alter und Sozialstatus.", t:"portal", u:"https://www.idz.institute/publikationen/"},
+  {c:"zahn", n:"Deutsche Gesellschaft für AltersZahnMedizin (DGAZ)", de:1, d:"Fachgesellschaft für zahnmedizinische Betreuung alter und pflegebedürftiger Menschen: Leitlinien, Fortbildung, Konzepte für die aufsuchende Versorgung.", t:"live", u:"https://www.dgaz.org/?s=%s"},
+  {c:"zahn", n:"AWMF-Leitlinienregister", de:1, d:"Darunter die Leitlinien zur zahnmedizinischen Betreuung von Pflegebedürftigen und Menschen mit Behinderung sowie zur Kariesprophylaxe mit Fluoriden.", t:"portal", u:"https://register.awmf.org/de/suche"},
+  {c:"zahn", n:"Gemeinsamer Bundesausschuss (G-BA)", de:1, d:"Beschlüsse zur zahnärztlichen Versorgung: Individualprophylaxe, Früherkennung bei Kleinkindern, zusätzliche Leistungen für Pflegebedürftige und Menschen mit Behinderung.", t:"live", u:"https://www.g-ba.de/sys/suche/?suchbegriff=%s"},
+  {c:"zahn", n:"Cochrane Oral Health", d:"Die Review-Gruppe des Fachs: systematische Übersichten zu Kariesprophylaxe, Fluoriden, Parodontitis und Mundpflege.", t:"live", u:"https://www.cochranelibrary.com/search?q=%s"},
+  {c:"zahn", n:"WHO – Oral health", d:"Globaler Statusbericht zur Mundgesundheit, Länderprofile und die Resolution zur Mundgesundheit als Teil der Grundversorgung.", t:"live", u:"https://www.who.int/home/search?indexCatalogue=genericsearchindex1&searchQuery=%s"},
 ];
 // === DB-BLOCK-ENDE ===
 
@@ -2367,6 +2378,7 @@ const CHIPS = [
   "nursing home quality",
   "long-term care financing",
   "skill mix nursing",
+  "Mundgesundheit",
 ];
 // === CHIPS-BLOCK-ENDE ===
 
