@@ -2284,7 +2284,7 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "13. Nov. 2026, 05:00 Uhr";
+const SNAP_DATE = "13. Nov. 2026, 14:05 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
@@ -2297,15 +2297,6 @@ const STUDIES = [
     transfer:"Wales (UK), aber Konzept ist auch auf deutsche Flächenländer mit räumlichen Zugangsbarrieren übertragbar."
   },
   {
-    journal:"JMIR Form Res", year:"2026", pmid:"43013871",
-    author:"Gencer H et al.", pubdate:"11.11.2026",
-    added:"11.11.2026",
-    title:"Digitale Unterstützung für pflegende Angehörige: WhatsApp-Bot mit hoher Usability",
-    sum:"Machbarkeitsstudie mit 102 pflegenden Angehörigen in Deutschland zu einem zweisprachigen WhatsApp-Chatbot (PflegeBot) mit 12 Wochen Interventionsdauer.",
-    result:"67 der 102 Teilnehmer initiierten den Chatbot. Von 46 Teilnehmern mit vollständigen Usability-Daten erreichte der Chatbot einen System Usability Scale Score von 82,45 (76 % über dem Benchmark von 68). Durchschnittliche Zufriedenheit 4,02 von 5. Perceived Stress sanken um 0,57 Punkte, depressive Symptome um 2,38 Punkte. Nutzer wünschten sich flexiblere Bereitstellung und bessere Individualisierung. Das Instrument zeigt Machbarkeit und hohe Akzeptanz.",
-    transfer:"Deutschland, deutsches Interventionssystem mit Fokus auf pflegende Angehörige."
-  },
-  {
     journal:"Rev Bras Enferm", year:"2026", pmid:"43017994",
     author:"Teles MAB et al.", pubdate:"06.11.2026",
     added:"12.11.2026",
@@ -2313,6 +2304,15 @@ const STUDIES = [
     sum:"Querschnittstudie in Brasilien mit Fokus auf Faktoren, die mit Kompasionserschöpfung (Burnout, sekundärer Traumastress) bei Angehörigen demenzkranker älterer Erwachsener assoziiert sind.",
     result:"Geringe Kompasionszufriedenheit war assoziiert mit fehlenderem Partner und negativer Selbstwahrnehmung der Gesundheit. Burnout war höher bei Betreuern ohne Partner (p&lt;0,05), mit negativer Gesundheitswahrnehmung, regelmäßiger Medikamentennutzung und ≥12 Stunden Pflegeeinsatz pro Tag. Sekundärer Traumastress war höher ohne Partner/Kind, mit negativer Gesundheit, Medikamentennutzung, eingeschränkter Selbstpflege und weiterer beruflicher Tätigkeit. Multiple Faktoren deuten auf kritische Belastungssituation hin.",
     transfer:"Brasilien, aber Kompasionserschöpfung und Belastungsfaktoren sind in deutschen Demenzbetreuer-Populationen ähnlich."
+  },
+  {
+    journal:"BMC Health Serv Res", year:"2026", pmid:"43015777",
+    author:"Cavmak S", pubdate:"12.08.2026",
+    added:"11.11.2026",
+    title:"Psychisches Wohlbefinden von Pflegekräften: Schlüsselfaktor für Work-Life-Balance",
+    sum:"Querschnittsstudie mit 488 Pflegekräften in der Türkei zur Rolle von psychischem Wohlbefinden als Mediator zwischen Arbeitsstress, psychologischer Sicherheit und Work-Life-Integration.",
+    result:"Psychisches Wohlbefinden (r=0,398) und psychologische Sicherheit (r=0,332) zeigen signifikante positive Beziehungen zu Work-Life-Integration, Stress hat negative Beziehung (r=−0,263). Wohlbefinden mediiert teilweise beide Effekte. Schichtarbeit und über 200 Arbeitsstunden monatlich reduzierten Work-Life-Integration signifikant. Mental Health fungiert als Puffer gegen Stress und vermittelt positive Auswirkungen psychologischer Sicherheit.",
+    transfer:"Türkei, aber ähnliche Arbeitsbedingungen in deutschen Kliniken und Heimen (Schichtdienste, Überbelastung)."
   },
   {
     journal:"BMC Geriatr", year:"2026", pmid:"43015643",
@@ -2324,13 +2324,22 @@ const STUDIES = [
     transfer:"Deutschland, deutsches Pflegeheim-Setting mit bekannten Ressourcenproblemen."
   },
   {
-    journal:"BMC Health Serv Res", year:"2026", pmid:"43015777",
-    author:"Cavmak S", pubdate:"12.08.2026",
+    journal:"JMIR Form Res", year:"2026", pmid:"43013871",
+    author:"Gencer H et al.", pubdate:"11.11.2026",
     added:"11.11.2026",
-    title:"Psychisches Wohlbefinden von Pflegekräften: Schlüsselfaktor für Work-Life-Balance",
-    sum:"Querschnittsstudie mit 488 Pflegekräften in der Türkei zur Rolle von psychischem Wohlbefinden als Mediator zwischen Arbeitsstress, psychologischer Sicherheit und Work-Life-Integration.",
-    result:"Psychisches Wohlbefinden (r=0,398) und psychologische Sicherheit (r=0,332) zeigen signifikante positive Beziehungen zu Work-Life-Integration, Stress hat negative Beziehung (r=−0,263). Wohlbefinden mediiert teilweise beide Effekte. Schichtarbeit und über 200 Arbeitsstunden monatlich reduzierten Work-Life-Integration signifikant. Mental Health fungiert als Puffer gegen Stress und vermittelt positive Auswirkungen psychologischer Sicherheit.",
-    transfer:"Türkei, aber ähnliche Arbeitsbedingungen in deutschen Kliniken und Heimen (Schichtdienste, Überbelastung)."
+    title:"Digitale Unterstützung für pflegende Angehörige: WhatsApp-Bot mit hoher Usability",
+    sum:"Machbarkeitsstudie mit 102 pflegenden Angehörigen in Deutschland zu einem zweisprachigen WhatsApp-Chatbot (PflegeBot) mit 12 Wochen Interventionsdauer.",
+    result:"67 der 102 Teilnehmer initiierten den Chatbot. Von 46 Teilnehmern mit vollständigen Usability-Daten erreichte der Chatbot einen System Usability Scale Score von 82,45 (76 % über dem Benchmark von 68). Durchschnittliche Zufriedenheit 4,02 von 5. Perceived Stress sanken um 0,57 Punkte, depressive Symptome um 2,38 Punkte. Nutzer wünschten sich flexiblere Bereitstellung und bessere Individualisierung. Das Instrument zeigt Machbarkeit und hohe Akzeptanz.",
+    transfer:"Deutschland, deutsches Interventionssystem mit Fokus auf pflegende Angehörige."
+  },
+  {
+    journal:"BMC Geriatr", year:"2026", pmid:"43021139",
+    author:"Malm J et al.", pubdate:"29.10.2026",
+    added:"12.11.2026",
+    title:"Verhaltenssymptome bei Demenz: tägliche Muster in schwedischen Pflegeheimen",
+    sum:"Strukturierte Tagesregistrierungen von Pflegekräften erfassten zwölf Verhaltens- und psychologische Symptome bei Heimbewohnern mit Demenz über einen Median von 270 Tagen, um deren tatsächliche Häufigkeit und Tagesrhythmen zu beschreiben.",
+    result:"Von 230 Heimbewohnern zeigten 90% Agitiertheit und 70% Euphorie über die gesamte Beobachtungszeit. Die mittlere tägliche Prävalenz war deutlich niedriger (4–18%), mit Symptomen überwiegend niedriger Schwere. An einem Mediawert von 43,5% der dokumentierten Tage war mindestens ein Symptom registriert. Symptomhäufigkeit war abends am höchsten, nachts am niedrigsten. Die Variabilität zwischen den sechs Heimen war mehr als zweifach.",
+    transfer:"Schweden, vergleichbare Pflegeheim-Versorgungsstruktur; digitale Datenerfassung in Routinedokumentation"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
