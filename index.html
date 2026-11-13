@@ -2268,62 +2268,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "12. Nov. 2026, 05:22 Uhr";
+const SNAP_DATE = "13. Nov. 2026, 05:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"JMIR Mhealth Uhealth", year:"2026", pmid:"43013335",
-    author:"Zhang Y et al.", pubdate:"11.11.2026",
+    journal:"J Eval Clin Pract", year:"2026", pmid:"43019365",
+    author:"Ellis V et al.", pubdate:"Dez. 2026",
+    added:"12.11.2026",
+    title:"Hybrid-Klinik statt langer Anfahrtsweg: Kostenersparnis für Patienten und Angehörige",
+    sum:"Die Studie verglich eine lokal angebotene Rehabilitationsklinik (ferngesteuert von Spezialisten) mit der bisherigen Regelversorgung, an der Patienten 123 Kilometer pro Besuch fahren mussten.",
+    result:"Patienten und Angehörige sparten durchschnittlich 121,42 £ pro Termin, 3 Stunden 31 Minuten Fahrtzeit und insgesamt 11 Arbeitstage. Die CO₂-Emissionen sanken um 417,2 kg pro Besuch. Die lokale Klinik verursachte zusätzliche Personalkosten von 554,19 £. Das Modell zeigt, dass dezentralisierte Versorgung für die Betroffenen erhebliche finanzielle und zeitliche Entlastung bringt.",
+    transfer:"Wales (UK), aber Konzept ist auch auf deutsche Flächenländer mit räumlichen Zugangsbarrieren übertragbar."
+  },
+  {
+    journal:"JMIR Form Res", year:"2026", pmid:"43013871",
+    author:"Gencer H et al.", pubdate:"11.11.2026",
     added:"11.11.2026",
-    title:"Tai-Chi zuhause mit Pflegenden: Pilot-RCT bei Herzinsuffizienz",
-    sum:"Pilot-RCT (n=40 Dyaden aus Patient und Pflegeperson mit Herzinsuffizienz) zur 12-wöchigen heimgestützten, digital unterstützten Tai-Chi-Intervention plus üblicher Versorgung (Intervention, n=20) vs. üblicher Versorgung allein (Kontrolle, n=20); Outcomes: Machbarkeit, Akzeptanz, Sicherheit und vorläufige Effekte auf Patient-, Pflegeperson- und Dyaden-Outcomes.",
-    result:"Rekrutierungsquote 83,3 % (40/48), mittlere Teilnahmequote 73,7 % (SD 8,6 %), 70 % erreichten hohe Adhärenz (≥75 % Teilnahme). Alle Interventionsdyaden bewerteten Akzeptabilität positiv. Keine interventionsbezogenen Nebenereignisse. Explorative Analysen zeigten in Interventionsgruppe vs. Kontrolle: bessere funktionelle Kapazität (β=38,858; p=0,001), niedrigere Minnesota-Scores (β=-1,850; p=0,002), weniger Bewegungsangst (β=-6,550; p=0,01), reduzierte Pflegebelastung (β=-4,350; p&lt;0,001), verbesserte gegenseitige Unterstützung (β=10,508 Patient/β=6,450 Pflegeperson; p&lt;0,001).",
-    transfer:"China (Hongkong), aber Dyaden-Rehabilitation bei Herzinsuffizienz und Belastung von Familiencaregiver sind international relevant; Modell für deutsche Kardioreha übertragbar"
+    title:"Digitale Unterstützung für pflegende Angehörige: WhatsApp-Bot mit hoher Usability",
+    sum:"Machbarkeitsstudie mit 102 pflegenden Angehörigen in Deutschland zu einem zweisprachigen WhatsApp-Chatbot (PflegeBot) mit 12 Wochen Interventionsdauer.",
+    result:"67 der 102 Teilnehmer initiierten den Chatbot. Von 46 Teilnehmern mit vollständigen Usability-Daten erreichte der Chatbot einen System Usability Scale Score von 82,45 (76 % über dem Benchmark von 68). Durchschnittliche Zufriedenheit 4,02 von 5. Perceived Stress sanken um 0,57 Punkte, depressive Symptome um 2,38 Punkte. Nutzer wünschten sich flexiblere Bereitstellung und bessere Individualisierung. Das Instrument zeigt Machbarkeit und hohe Akzeptanz.",
+    transfer:"Deutschland, deutsches Interventionssystem mit Fokus auf pflegende Angehörige."
   },
   {
-    journal:"Gerontologist", year:"2026", pmid:"42989571",
-    author:"Kalisvaart M et al.", pubdate:"10.11.2026",
-    added:"06.11.2026",
-    title:"Narrative Ansätze in der Qualitätsentwicklung: Organisatorische Spannungen in niederländischen Pflegeheimen",
-    sum:"Qualitative Studie mit Beobachtungen und Interviews in 11 niederländischen Pflegeheimen (2 vertieft beobachtet, 9 interviewt) zur Frage, welche organisatorischen Probleme entstehen, wenn Heime Erzählungen von Bewohnern systematisch in ihre Qualitätsverbesserung einbeziehen wollen.",
-    result:"Vier zentrale Spannungen identifiziert: (1) vorgegebene vs. emergente Themen, (2) Abstraktion von Narrationen vs. Bewahrung ihrer Komplexität, (3) hierarchische vs. kollaborative Qualitätsorganisation, (4) Compliance-Nachweis vs. Lernorientierung. Die Ergebnisse zeigen: Narrative Prozesse erfordern einen grundlegenden Paradigmenwechsel in der Organisationspraxis, nicht nur Optimierung bestehender Systeme.",
-    transfer:"Niederlande, steuerfinanziert, vergleichbare Pflegeheimlandschaft; Befunde zu Organisationskulturen übertragbar"
+    journal:"Rev Bras Enferm", year:"2026", pmid:"43017994",
+    author:"Teles MAB et al.", pubdate:"06.11.2026",
+    added:"12.11.2026",
+    title:"Kompasionserschöpfung bei Demenzbetreuer: fehlender Partner und negative Gesundheitswahrnehmung",
+    sum:"Querschnittstudie in Brasilien mit Fokus auf Faktoren, die mit Kompasionserschöpfung (Burnout, sekundärer Traumastress) bei Angehörigen demenzkranker älterer Erwachsener assoziiert sind.",
+    result:"Geringe Kompasionszufriedenheit war assoziiert mit fehlenderem Partner und negativer Selbstwahrnehmung der Gesundheit. Burnout war höher bei Betreuern ohne Partner (p&lt;0,05), mit negativer Gesundheitswahrnehmung, regelmäßiger Medikamentennutzung und ≥12 Stunden Pflegeeinsatz pro Tag. Sekundärer Traumastress war höher ohne Partner/Kind, mit negativer Gesundheit, Medikamentennutzung, eingeschränkter Selbstpflege und weiterer beruflicher Tätigkeit. Multiple Faktoren deuten auf kritische Belastungssituation hin.",
+    transfer:"Brasilien, aber Kompasionserschöpfung und Belastungsfaktoren sind in deutschen Demenzbetreuer-Populationen ähnlich."
   },
   {
-    journal:"BMC Health Serv Res", year:"2026", pmid:"43009982",
-    author:"Lillsjö E et al.", pubdate:"06.11.2026",
-    added:"10.11.2026",
-    title:"Pflegerische Leitung in der ambulanten Altenpflege: Was Pflegekräfte erleben",
-    sum:"Qualitative Interviewstudie mit 15 Pflegekräften (nicht-akademisch) in der Schwedischen Altenhilfe zu ihren Erfahrungen mit Leitungsverhalten von diplomierten Pflegefachpersonen in der häuslichen Versorgung älterer Menschen.",
-    result:"Drei zentrale Themen emergiert: (1) Leitungsverhalten der Pflegefachpersonen beeinflusst das Sicherheitserleben der Pflegekräfte, (2) es beeinflusst ihr Zugehörigkeitsgefühl, (3) Nähe der Leitungsperson fördert Beziehungsaufbau. Schlussfolgerung: Wenn Pflegefachpersonen räumlich und relational nah bei Bewohnern und Team präsent sind, verbessert sich Qualität und Sicherheit der Versorgung.",
-    transfer:"Schweden, kommunale Langzeitpflege ähnlich deutscher Heimversorgung und ambulanten Diensten; Leitungsrollen und Pflegefachkräftemangel vergleichbar"
-  },
-  {
-    journal:"Nurs Crit Care", year:"2026", pmid:"43010803",
-    author:"Derakhshan HB et al.", pubdate:"Nov. 2026",
+    journal:"BMC Geriatr", year:"2026", pmid:"43015643",
+    author:"Wobst LM et al.", pubdate:"05.11.2026",
     added:"11.11.2026",
-    title:"Assertivenessschulung für Intensivpfleger: Mehr Resilienz und bessere Entscheidungen",
-    sum:"Randomisierte kontrollierte Studie mit 70 Intensivpflegekräften aus dem Iran; Interventionsgruppe (n=35) erhielt 6 × 1,5-stündige Assertiveness-Trainings, Kontrollgruppe (n=35) nur Standardschulung; Messung von Resilienz (CD-RISC) und klinischer Entscheidungsfindung (PDAQ) zu Baseline, direkt post-Intervention und nach 3 Monaten.",
-    result:"Interventionsgruppe zeigte signifikant höhere Resilience-Scores (p&lt;0,01) und bessere klinische Entscheidungsfindung sowohl direkt nach Training (T1) als auch bei 3-Monats-Follow-up (T2) gegenüber Kontrolle. Verbesserungen blieben stabil von T1 zu T2 (p&lt;0,01). Keine Baseline-Unterschiede zwischen Gruppen.",
-    transfer:"Iran, aber Stress-Coping-Mechanismen und Personalentwicklung in ICU-Pflege international ähnlich; Interventionsmodell prinzipiell übertragbar"
+    title:"Mundhygiene im Pflegeheim: Implementierungshürden trotz positiver Wahrnehmung",
+    sum:"Deutsche Prozessevaluation einer komplexen Intervention mit Schulungen für Zahnärzte und Pflegefachkräfte zur Verbesserung der Mundgesundheit in 18 Pflegeheimen.",
+    result:"Drei Schulungen für Zahnärzte und Assistenten wurden wie geplant durchgeführt; ein Heim konnte nicht teilnehmen (Personalmangel). Nur etwa die Hälfte der empfohlenen Mundhygienemaßnahmen wurden in der Praxis umgesetzt. Hauptbarrieren waren Personalknappheit und Zeitmangel, mangelndes Engagement des Pflegepersonals sowie individuelle Bewohnermerkmale (Krankheitszustand, Nichtkooperativität).",
+    transfer:"Deutschland, deutsches Pflegeheim-Setting mit bekannten Ressourcenproblemen."
   },
   {
-    journal:"Nurs Open", year:"2026", pmid:"43009720",
-    author:"Wang S et al.", pubdate:"Nov. 2026",
-    added:"10.11.2026",
-    title:"Gebrechlichkeit nach Schlaganfall und Belastung der pflegenden Angehörigen",
-    sum:"Querschnittsstudie in China mit 323 gültig geantworteten Fragebögen von Schlaganfall-Patienten (Durchschnittsalter über 65) und ihren primären Familienangehörigen zur Assoziation zwischen Gebrechlichkeit (Tilburg Frailty Indicator) und Pflegebelastung (Caregiver Burden Inventory).",
-    result:"Mittlere TFI-Scores 6,90±4,19, CBI-Scores 56,26±16,29. TFI und CBI positiv korreliert (r=0,647, p&lt;0,001). Nach Adjustierung: Separate Wohnorte und &lt;12 h tägliche Pflege (vs. &gt;18 h) assoziiert mit niedrigerer Belastung; &lt;6 h Schlaf/Nacht mit höherer Belastung. Modell erklärte 79,8 % der Varianz in der Pflegebelastung (adj. R²=0,792).",
-    transfer:"China, aber Assoziationen zwischen Gebrechlichkeit und Angehörigenbelastung grundlegend; deutsche Heime und Pflegesettings haben ähnliche Konstellationen"
-  },
-  {
-    journal:"Eur Geriatr Med", year:"2026", pmid:"42850398",
-    author:"Malara A et al.", pubdate:"08.10.2026",
-    added:"08.10.2026",
-    title:"Medikamentenmanipulation in italienischen Altenheimen: Weit verbreitet, häufig unangemessen",
-    sum:"Nationale Querschnittsstudie in 82 italienischen Pflegeheimen (3174 Bewohner, Durchschnittsalter 84,8 Jahre) zur Erfassung der Häufigkeit und Angemessenheit der Manipulation von Tabletten und Kapseln (Zerkleinern, Öffnen, Mischen mit Speisen).",
-    result:"Von 20.290 Verschreibungen wurden 4655 (23,0 %) Darreichungsformen manipuliert; davon waren 27,9 % unangemessen, 10,8 % wahrscheinlich unangemessen. Insgesamt 31,7 % der Bewohner (1006 Personen) erhielten mindestens eine unangemessene oder wahrscheinlich unangemessene Manipulation, 11,9 % erhielten drei oder mehr. Kapseln wurden häufiger unangemessen manipuliert als Tabletten (68,8 % vs. 37,7 %). Besonders betroffen: gebrechliche Bewohner mit Demenz oder Dysphagie.",
-    transfer:"Italien (Versicherungssystem ähnlich Deutschland), Langzeitpflegeeinrichtungen, Medikamentensicherheitsrisiken direkt auf deutsches Heim-Setting übertragbar"
+    journal:"BMC Health Serv Res", year:"2026", pmid:"43015777",
+    author:"Cavmak S", pubdate:"12.08.2026",
+    added:"11.11.2026",
+    title:"Psychisches Wohlbefinden von Pflegekräften: Schlüsselfaktor für Work-Life-Balance",
+    sum:"Querschnittsstudie mit 488 Pflegekräften in der Türkei zur Rolle von psychischem Wohlbefinden als Mediator zwischen Arbeitsstress, psychologischer Sicherheit und Work-Life-Integration.",
+    result:"Psychisches Wohlbefinden (r=0,398) und psychologische Sicherheit (r=0,332) zeigen signifikante positive Beziehungen zu Work-Life-Integration, Stress hat negative Beziehung (r=−0,263). Wohlbefinden mediiert teilweise beide Effekte. Schichtarbeit und über 200 Arbeitsstunden monatlich reduzierten Work-Life-Integration signifikant. Mental Health fungiert als Puffer gegen Stress und vermittelt positive Auswirkungen psychologischer Sicherheit.",
+    transfer:"Türkei, aber ähnliche Arbeitsbedingungen in deutschen Kliniken und Heimen (Schichtdienste, Überbelastung)."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2348,7 +2339,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "12.11.2026";
+const NEWS_STAND = "13.11.2026";
 const NEWS = [
   {titel:"BKK-Dachverband zur 1. Lesung des Pflegeneuordnungsesetzes und zur finanziellen Lage der Pflegeversicherung", datum:"2026-11-09", url:"https://www.monitor-versorgungsforschung.de/news/bkk-dachverband-zur-1-lesung-des-pflegeneuordnungsesetzes-und-zur-finanziellen-lage-der-pflegeversicherung/"},
   {titel:"Pflegereform im Kabinett: PKV warnt vor Aufweichung im Parlament", datum:"2026-09-30", url:"https://www.monitor-versorgungsforschung.de/news/pflegereform-im-kabinett-pkv-warnt-vor-aufweichung-im-parlament/"},
