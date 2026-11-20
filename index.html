@@ -2300,62 +2300,17 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "19. Nov. 2026, 05:00 Uhr";
+const SNAP_DATE = "20. Nov. 2026, 05:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Ann Med", year:"2026", pmid:"43046950",
-    author:"Cai J et al.", pubdate:"18.11.2026",
+    journal:"BMC Health Serv Res", year:"2026", pmid:"43052956",
+    author:"Nilsen MK et al.", pubdate:"21.08.2026",
     added:"18.11.2026",
-    title:"Pflegefachkraft-geführtes Advocacy-Modell: Effekt auf Therapietreue bei Tuberkulose",
-    sum:"Vergleich eines strukturierten Advocacy-Modells mit Pflegefachkräften und digitaler Adhärenz-Technologie versus Standardbehandlung bei 300 Tuberkulose-Patienten in China.",
-    result:"Das Advocacy-Modell führte zu signifikant höherer Medikamenten-Adhärenz (94,5% vs. 82,8% bei arzneimittelresistenten Stämmen; 90,9% vs. 72,3% bei multiresistenten; p&lt;0,001) und geringerem Abbruch (Relative Risk 0,35; 95%-KI 0,16–0,77; p&lt;0,001). Pflegefachkraft-gestützte Patienten-Advocacy verbessert strukturiert Versorgungs-Kontinuität.",
-    transfer:"China, strukturierte nicht-randomisierte Vergleichsstudie mit Propensity-Score-Matching"
-  },
-  {
-    journal:"Support Care Cancer", year:"2026", pmid:"43049987",
-    author:"Afiyanti Y et al.", pubdate:"17.11.2026",
-    added:"18.11.2026",
-    title:"Pflegefachkraft-geleitetes Telemonitoring bei Gynäkologischer Malignität: Ernährungsrisiko und Distress",
-    sum:"68 Frauen mit Ovarialkarzinom unter Chemotherapie erhielten telecoaching-gestützte Selbstmanagement-Intervention oder Routineberatung über 8 Wochen mit wiederholten Messungen.",
-    result:"Interventionsgruppe zeigte stärkere Reduktion des Ernährungsrisikos (T2: β −5,53; 95%-KI −7,14 bis −3,92) und Distress (T2: β −1,04; 95%-KI −1,80 bis −0,28). Sexuelle Funktion und Lebensqualität unterschieden sich nicht zwischen Gruppen. Befunde für Langzeit-RCTs reserviert; vorläufig vielversprechend.",
-    transfer:"Indonesien, Quasi-Experiment; Telemonitoring-Modell aber international übertragbar"
-  },
-  {
-    journal:"BMC Med Educ", year:"2026", pmid:"43046037",
-    author:"Ravik M et al.", pubdate:"22.08.2026",
-    added:"17.11.2026",
-    title:"Reflektives Lernen praktischer Pflegefähigkeiten: Tiefenanalyse von Lernjournal-Einträgen",
-    sum:"Qualitative Inhaltsanalyse der Reflexions-Noten von 22 Erstsemester-Pflegestudierenden während Praktika anhand Bjørk-Modells für praktische Skill-Performance.",
-    result:"Studierende zeigten Patienten-zentrierte Versorgung, Vorbereitung und Integration technischer, relationaler und kontextueller Elemente. Reflexions-Tiefe variierte erheblich zwischen Studierenden: Einige beschreibend oberflächlich, andere analytisch vertieft. Variabilität unterstreicht Bedarf für individualisierte Lernstrategien zur Förderung reflektiven Denkens.",
-    transfer:"Norwegen; Reflektions-Framework international für Pflegeausbildung nutzbar"
-  },
-  {
-    journal:"BMC Geriatr", year:"2026", pmid:"43046145",
-    author:"Sharma I et al.", pubdate:"21.08.2026",
-    added:"17.11.2026",
-    title:"Heimbasierte Trainings-Programme bei Sarkopenie: Muskelkraft und Mobilität älterer Menschen",
-    sum:"Systematischer Review und Metaanalyse von 12 RCTs mit 928 älteren Menschen zur Wirksamkeit von Heimtraining auf Muskelmasse, Kraft, Funktion und Lebensqualität.",
-    result:"Multikomponenten-Programme mit Widerstandstraining (ca. 12 Wochen) verbesserten Muskelkraft, Balance und funktionale Leistung signifikant; Auswirkungen auf Muskelmasse inkonsistent. Ergebnisse substanziell heterogen; standardisierte Diagnose- und Interventions-Kriterien fehlen. Heim-Training kostengünstig und nachhaltig, wo Zugang zu Zentren limitiert.",
-    transfer:"Internationale Evidenz, aber deutsches Pflegesetting relevant"
-  },
-  {
-    journal:"J Nurs Manag", year:"2026", pmid:"43046870",
-    author:"Choi JR et al.", pubdate:"2026",
-    added:"18.11.2026",
-    title:"Rollenkonflikt und Rollenunsicherheit: Effekt auf Versorgungs-Kontinuität in Pflege-Teams",
-    sum:"Pfadanalyse bei 229 Pflegefachkräften in südkoreanischen Stationen mit integriertem Versorgungsmodell, das Angehörigen-Mitbeteiligung durch Pflegeteams ersetzt.",
-    result:"Rollenkonflikt wirkte sich signifikant auf organisationales Commitment, Jobzufriedenheit, Belastung und Kündigungsabsicht aus (direkte und indirekte Pfade). Formalisierung und Teamorientierung reduzierten Rollenkonflikt. Rollenunsicherheit zeigte begrenztere Assoziationen, vorrangig mit Job-Strain (β 0,21). Strukturierte Delegation und klare Aufgabengrenzen zentral.",
-    transfer:"Südkorea; Modell auf deutsches Team-Pflege-Modell übertragbar"
-  },
-  {
-    journal:"J Nurs Manag", year:"2026", pmid:"43049252",
-    author:"Innab A et al.", pubdate:"2026",
-    added:"18.11.2026",
-    title:"Unterlassene Pflege: Zusammenhang mit Führungsstil und Arbeitsbelastung",
-    sum:"131 Pflegefachkräfte aus mehreren Krankenhäusern in Saudi-Arabien zu untergelassener Pflege, Führungsstilen und beruflichen Stressoren mittels Korrelations- und Regressionsanalyse.",
-    result:"Unterlassene Pflege gering, Hauptgrund Ressourcenmangel. Transformational und transaktionale Führung korrelierten negativ mit untergelassener Pflege (moderate, signifikante Korrelation). Stressoren (unzureichende Besetzung, Überstunden, weniger als 10 Jahre Berufserfahrung) waren signifikante Prädiktoren für mehr unterlassene Pflege. Effektive Führung reduzierte Risiko.",
-    transfer:"Saudi-Arabien; Personalmanagement-Befunde international relevant"
+    title:"Medikamentenverwaltung in der häuslichen Versorgung: wann Kommunen Unterstützung bewilligen",
+    sum:"Qualitative Analyse von Entscheidungsbriefen und Interviews mit Patienten, Leistungsanbietern und Kostenträgern, wie norwegische Gemeinden die Bewilligung von Medikamentenhilfe für ältere Menschen zu Hause begründen.",
+    result:"Analyse ergab: Bewilligungen basieren mehr auf impliziten als expliziten Kriterien. Medikamentenhilfe wird oft als kostengünstige Maßnahme genutzt, um Zugang zu Patienten für Monitoring zu erhalten und längeres Verbleiben zuhause zu ermöglichen – eine Praxis, die Regierungsprioritäten entspricht, aber nicht transparent oder standardisiert ist.",
+    transfer:"Norwegen, vergleichbares Versicherungssystem wie Pflegeversicherung in Deutschland"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2380,7 +2335,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "19.11.2026";
+const NEWS_STAND = "20.11.2026";
 const NEWS = [
   {titel:"Verpflegung in Pflegeheimen: vdek und DIP starten Projekt MAHLZEIT!", datum:"2026-11-16", url:"https://www.monitor-versorgungsforschung.de/news/verpflegung-in-pflegeheimen-vdek-und-dip-starten-projekt-mahlzeit/"},
   {titel:"Pflege in der Krankenhausreform: DBfK fordert feste Vorgaben", datum:"2026-11-16", url:"https://www.monitor-versorgungsforschung.de/news/pflege-in-der-krankenhausreform-dbfk-fordert-feste-vorgaben/"},
