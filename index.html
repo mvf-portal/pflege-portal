@@ -2300,7 +2300,7 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "20. Nov. 2026, 05:00 Uhr";
+const SNAP_DATE = "20. Nov. 2026, 05:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
@@ -2311,6 +2311,51 @@ const STUDIES = [
     sum:"Qualitative Analyse von Entscheidungsbriefen und Interviews mit Patienten, Leistungsanbietern und Kostenträgern, wie norwegische Gemeinden die Bewilligung von Medikamentenhilfe für ältere Menschen zu Hause begründen.",
     result:"Analyse ergab: Bewilligungen basieren mehr auf impliziten als expliziten Kriterien. Medikamentenhilfe wird oft als kostengünstige Maßnahme genutzt, um Zugang zu Patienten für Monitoring zu erhalten und längeres Verbleiben zuhause zu ermöglichen – eine Praxis, die Regierungsprioritäten entspricht, aber nicht transparent oder standardisiert ist.",
     transfer:"Norwegen, vergleichbares Versicherungssystem wie Pflegeversicherung in Deutschland"
+  },
+  {
+    journal:"BMC Palliat Care", year:"2026", pmid:"43052937",
+    author:"Muente C et al.", pubdate:"18.11.2026",
+    added:"18.11.2026",
+    title:"Unterstützung durch Nicht-Verwandte: Wie Freunde und Nachbarn Sterbende pflegen",
+    sum:"Deutsche Studie zur Belastung und Unterstützungsbedarf von nicht-verwandten Pflegepersonen (Freunde, Nachbarn) von Patienten mit lebensbedrohlichen Erkrankungen.",
+    result:"82 Pflegepersonen (80,5% Frauen, Alter 57,3 Jahre), 65,9% betreuen gemeinsam mit anderen. Emotionale Unterstützung am häufigsten (97,6%), gefolgt von Mobilitätshilfe (70,7%). Moderate Belastung (Mittelwert 10,0 ± 7,5), erhebliche Schwankungen. Häufigste Unterstützungsbedarfe: Selbstpflege (50%), Information über psychosoziale Dienste (37,1%).",
+    transfer:"Deutschland, prospektiv registriert, lokal generierte Daten"
+  },
+  {
+    journal:"Age Ageing", year:"2026", pmid:"43055511",
+    author:"Jung JH et al.", pubdate:"31.10.2026",
+    added:"19.11.2026",
+    title:"Weniger ungeeignete Medikamente: Multidisziplinäres Programm in koreanischen Pflegeheimen senkt Polypharmacy",
+    sum:"Südkoreanische Cluster-randomisierte kontrollierte Studie zum Effekt eines Medikamentenmanagementprogramms (Medikamentenüberprüfung, Deprescribing, Fallkonferenzen) auf Medikationsmuster bei 1.672 Heimbewohnern (≥65 Jahre) in 28 Einrichtungen über 15 Monate.",
+    result:"Kontrollgruppe: Medikamentenzahl und Anteil Patienten mit ungeeigneten Medikamenten stiegen; Interventionsgruppe stabil (IRR 0,993, p&lt;0,001 bzw. 0,990, p=0,004). Nutzung ungeeigneter Medikamente fiel von 65,8% auf 62,5% (Intervention) vs. stieg von 72,5% auf 75,5% (Kontrolle; OR 0,981, p=0,043). Notaufnahmen/Hospitalisierungen tendenziell geringer (27,6% vs. 32,3%, nicht signifikant).",
+    transfer:"Südkorea, ähnliche Pflegeheimstruktur wie Deutschland, konzeptionell anwendbar"
+  },
+  {
+    journal:"BMC Geriatr", year:"2026", pmid:"43046138",
+    author:"Famira-Mühlberger U et al.", pubdate:"20.08.2026",
+    added:"17.11.2026",
+    title:"Routinedaten vorhersagen Pflegeheim-Einzug: Machine Learning mit Wiener Versichertendaten",
+    sum:"Österreichische Studie zur Vorhersage des Erstzugangs zur Pflegegeldleistung mittels administrativer Gesundheitsdaten und Machine-Learning-Algorithmen bei 474.000 Personen (60–85 Jahre).",
+    result:"Beste Modelle erreichen AUC 0,9 bei Vorhersage. Häufigkeit von Arztbesuchen und Krankenhausaufenthalte sowie Diagnosen (Demenz, Schlaganfall, Hypertonie) sind stärkste Prädiktoren. Feiner auflöste Daten verbessern Vorhersage nicht zwingend. Healthcare-Daten ermöglichen zuverlässige Kurzfristprognose für Versorgungsbedarf.",
+    transfer:"Österreich, vergleichbare Pflegeversicherung wie Deutschland, administrative Routinedaten"
+  },
+  {
+    journal:"J Nurs Manag", year:"2026", pmid:"43052215",
+    author:"Pastore F et al.", pubdate:"2026",
+    added:"18.11.2026",
+    title:"Gewalt gegen Pflegekräfte: Wie Angststörungen entstehen und Meldehürden bleiben",
+    sum:"Italienische Querschnittsstudie zu Zusammenhängen zwischen beruflicher Gewalt, Angststörungen und Hürden bei der Meldung von Vorfällen unter Krankenhausfachkräften.",
+    result:"298 Pflegekräfte (72,5% Frauen), 41,3% älter als 50 Jahre. Verbale Gewalt häufigster Typ, assoziiert mit moderater bis schwerer Angststörung. 52,3% berichteten verringerte Motivation, 11,1% starke psychische Belastung, 16,4% mindestens einen Fehltag. Fehlende organisatorische Unterstützung, mangelnde Meldeverfahren und zeitaufwändige Prozesse als Haupthürden; diese signifikant mit höherer Angst assoziiert.",
+    transfer:"Italien, Routinedaten aus Akutklinik, Ergebnisse für Organisationskultur übertragbar"
+  },
+  {
+    journal:"J Nurs Manag", year:"2026", pmid:"43046880",
+    author:"Letterstål A et al.", pubdate:"2026",
+    added:"18.11.2026",
+    title:"Stationsleiter unter Druck: Wie Personalknappheit die Weiterbildung von Pflegekräften behindert",
+    sum:"Schwedische qualitative Studie zu Wahrnehmungen von acht Stationsleitern hinsichtlich ihrer Fähigkeit, die Kompetenzentwicklung von neu eingestellten und etablierten Pflegekräften zu unterstützen.",
+    result:"Stationsleiter haben Ambition für lernförderliche Organisationskultur und strukturierte Weiterbildung, aber ihre Bemühungen werden durch Personalknappheit und begrenzte Budgets gehemmt. Transformationales Führungsverhalten assoziiert mit Fokus auf individuelle Bedürfnisse der Pflegekräfte, flexible Arbeitsstrukturen und Unterstützung der Karriereentwicklung, aber es bleiben Spannungen zwischen Betriebsanforderungen und Lernzielen.",
+    transfer:"Schweden, ähnliche skandinavische Versorgungsstrukturen, Managemententscheidungen"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2325,7 +2370,7 @@ const RADAR_FRISTEN = [["2026-12-31"], [], ["2027-01-07", "2027-02-11"], [], [],
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "19.11.2026";
+const ZUL_STAND = "20.11.2026";
 const ZUL_EIGENE = 0;
 const ZUL_GUTACHTEN = 0;
 const ZUL_ZULASSUNG = 0;
