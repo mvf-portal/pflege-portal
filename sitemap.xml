@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- erzeugt von hub-scripts/studienseiten.py -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://pflege.m-vf.de/</loc><lastmod>2026-11-21</lastmod></url>
-<url><loc>https://pflege.m-vf.de/studie/</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://pflege.m-vf.de/</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>https://pflege.m-vf.de/studie/</loc><lastmod>2026-11-22</lastmod></url>
 <url><loc>https://pflege.m-vf.de/neue-studien.html</loc></url>
 <url><loc>https://pflege.m-vf.de/newsletter.html</loc></url>
 <url><loc>https://pflege.m-vf.de/themen-quellen.html</loc></url>
+<url><loc>https://pflege.m-vf.de/studie/43064999/</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>https://pflege.m-vf.de/studie/43063362/</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>https://pflege.m-vf.de/studie/43059211/</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>https://pflege.m-vf.de/studie/43059148/</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>https://pflege.m-vf.de/studie/43058908/</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>https://pflege.m-vf.de/studie/42995597/</loc><lastmod>2026-11-22</lastmod></url>
 <url><loc>https://pflege.m-vf.de/studie/43063174/</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://pflege.m-vf.de/studie/43059599/</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://pflege.m-vf.de/studie/43059459/</loc><lastmod>2026-11-21</lastmod></url>
